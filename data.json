@@ -1,25 +1,25 @@
 {
     "schemaVersion":  1,
-    "generated":  1791483025428,
-    "generatedIso":  "2026-10-08T11:10:25-07:00",
+    "generated":  1791484825186,
+    "generatedIso":  "2026-10-08T11:40:25-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1791097200000,
     "totals":  {
-                   "clubMs":  13388048,
-                   "weekMs":  13388048,
-                   "pilots":  8,
-                   "activePilots7":  8,
-                   "flights":  16
+                   "clubMs":  13726452,
+                   "weekMs":  13726452,
+                   "pilots":  9,
+                   "activePilots7":  9,
+                   "flights":  17
                },
     "pilots":  [
                    {
                        "name":  "Micah T.",
-                       "totalMs":  5457568,
-                       "weekMs":  5457568,
-                       "lastSeen":  1791433334469,
+                       "totalMs":  5557968,
+                       "weekMs":  5557968,
+                       "lastSeen":  1791484808590,
                        "flights":  2
                    },
                    {
@@ -51,6 +51,13 @@
                        "flights":  1
                    },
                    {
+                       "name":  "Grayson Mackle",
+                       "totalMs":  238004,
+                       "weekMs":  238004,
+                       "lastSeen":  1791484673932,
+                       "flights":  1
+                   },
+                   {
                        "name":  "marco c",
                        "totalMs":  211465,
                        "weekMs":  211465,
@@ -73,6 +80,11 @@
                    }
                ],
     "recent":  [
+                   {
+                       "name":  "Grayson Mackle",
+                       "start":  1791484434845,
+                       "flownMs":  238004
+                   },
                    {
                        "name":  "Jacob S.",
                        "start":  1791481109346,
@@ -142,11 +154,6 @@
                        "name":  "Greyson P",
                        "start":  1791391846744,
                        "flownMs":  1763221
-                   },
-                   {
-                       "name":  "Jacob S.",
-                       "start":  1791389830793,
-                       "flownMs":  145551
                    }
                ],
     "schedule":  {
