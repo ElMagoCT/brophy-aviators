@@ -1,11 +1,681 @@
 {
-  "schemaVersion": 1,
-  "generated": 0,
-  "generatedIso": "",
-  "club": { "name": "Brophy Aviators Club", "sim": "Microsoft Flight Simulator 2024" },
-  "weekStart": 0,
-  "totals": { "clubMs": 0, "weekMs": 0, "pilots": 0, "activePilots7": 0, "flights": 0 },
-  "pilots": [],
-  "recent": [],
-  "schedule": { "closedLabel": "", "source": "", "days": [] }
+    "schemaVersion":  1,
+    "generated":  1791432449057,
+    "generatedIso":  "2026-10-07T21:07:29-07:00",
+    "club":  {
+                 "name":  "Brophy Aviators Club",
+                 "sim":  "Microsoft Flight Simulator 2024"
+             },
+    "weekStart":  1791097200000,
+    "totals":  {
+                   "clubMs":  11022140,
+                   "weekMs":  11022140,
+                   "pilots":  8,
+                   "activePilots7":  8,
+                   "flights":  11
+               },
+    "pilots":  [
+                   {
+                       "name":  "Micah T.",
+                       "totalMs":  5318127,
+                       "weekMs":  5318127,
+                       "lastSeen":  1791415666925,
+                       "flights":  1
+                   },
+                   {
+                       "name":  "Greyson P",
+                       "totalMs":  2719426,
+                       "weekMs":  2719426,
+                       "lastSeen":  1791394699724,
+                       "flights":  2
+                   },
+                   {
+                       "name":  "Jacob S.",
+                       "totalMs":  1969837,
+                       "weekMs":  1969837,
+                       "lastSeen":  1791397795562,
+                       "flights":  3
+                   },
+                   {
+                       "name":  "Spencer S",
+                       "totalMs":  349773,
+                       "weekMs":  349773,
+                       "lastSeen":  1791395332528,
+                       "flights":  1
+                   },
+                   {
+                       "name":  "Fr. DelToro",
+                       "totalMs":  247705,
+                       "weekMs":  247705,
+                       "lastSeen":  1791413911743,
+                       "flights":  1
+                   },
+                   {
+                       "name":  "marco c",
+                       "totalMs":  211465,
+                       "weekMs":  211465,
+                       "lastSeen":  1791394973166,
+                       "flights":  1
+                   },
+                   {
+                       "name":  "Colton O.",
+                       "totalMs":  192358,
+                       "weekMs":  192358,
+                       "lastSeen":  1791417077103,
+                       "flights":  2
+                   },
+                   {
+                       "name":  "Jackson R",
+                       "totalMs":  13449,
+                       "weekMs":  13449,
+                       "lastSeen":  1791394728810,
+                       "flights":  0
+                   }
+               ],
+    "recent":  [
+                   {
+                       "name":  "Colton O.",
+                       "start":  1791417015882,
+                       "flownMs":  49832
+                   },
+                   {
+                       "name":  "Colton O.",
+                       "start":  1791416055808,
+                       "flownMs":  142526
+                   },
+                   {
+                       "name":  "Fr. DelToro",
+                       "start":  1791413629493,
+                       "flownMs":  247705
+                   },
+                   {
+                       "name":  "Jacob S.",
+                       "start":  1791397452723,
+                       "flownMs":  342828
+                   },
+                   {
+                       "name":  "Jacob S.",
+                       "start":  1791397322606,
+                       "flownMs":  76203
+                   },
+                   {
+                       "name":  "Spencer S",
+                       "start":  1791394982731,
+                       "flownMs":  349773
+                   },
+                   {
+                       "name":  "marco c",
+                       "start":  1791394761677,
+                       "flownMs":  211465
+                   },
+                   {
+                       "name":  "Greyson P",
+                       "start":  1791393743480,
+                       "flownMs":  956205
+                   },
+                   {
+                       "name":  "Greyson P",
+                       "start":  1791391846744,
+                       "flownMs":  1763221
+                   },
+                   {
+                       "name":  "Jacob S.",
+                       "start":  1791389830793,
+                       "flownMs":  145551
+                   },
+                   {
+                       "name":  "Micah T.",
+                       "start":  1791388372205,
+                       "flownMs":  195222
+                   }
+               ],
+    "schedule":  {
+                     "closedLabel":  "Class in session",
+                     "source":  "imported 2026-10-07 08:47",
+                     "days":  [
+                                  {
+                                      "date":  "2026-10-07",
+                                      "dow":  "Wed",
+                                      "dowFull":  "Wednesday",
+                                      "label":  "Oct 7",
+                                      "open":  true,
+                                      "note":  "",
+                                      "windows":  [
+                                                      {
+                                                          "from":  "07:00",
+                                                          "to":  "08:00",
+                                                          "startIso":  "2026-10-07T07:00:00-07:00",
+                                                          "endIso":  "2026-10-07T08:00:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "09:20",
+                                                          "to":  "11:40",
+                                                          "startIso":  "2026-10-07T09:20:00-07:00",
+                                                          "endIso":  "2026-10-07T11:40:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "13:00",
+                                                          "to":  "13:10",
+                                                          "startIso":  "2026-10-07T13:00:00-07:00",
+                                                          "endIso":  "2026-10-07T13:10:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "14:30",
+                                                          "to":  "16:00",
+                                                          "startIso":  "2026-10-07T14:30:00-07:00",
+                                                          "endIso":  "2026-10-07T16:00:00-07:00"
+                                                      }
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-08",
+                                      "dow":  "Thu",
+                                      "dowFull":  "Thursday",
+                                      "label":  "Oct 8",
+                                      "open":  true,
+                                      "note":  "",
+                                      "windows":  [
+                                                      {
+                                                          "from":  "07:00",
+                                                          "to":  "08:00",
+                                                          "startIso":  "2026-10-08T07:00:00-07:00",
+                                                          "endIso":  "2026-10-08T08:00:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "08:40",
+                                                          "to":  "08:50",
+                                                          "startIso":  "2026-10-08T08:40:00-07:00",
+                                                          "endIso":  "2026-10-08T08:50:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "09:30",
+                                                          "to":  "09:55",
+                                                          "startIso":  "2026-10-08T09:30:00-07:00",
+                                                          "endIso":  "2026-10-08T09:55:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "10:35",
+                                                          "to":  "10:45",
+                                                          "startIso":  "2026-10-08T10:35:00-07:00",
+                                                          "endIso":  "2026-10-08T10:45:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "11:25",
+                                                          "to":  "11:35",
+                                                          "startIso":  "2026-10-08T11:25:00-07:00",
+                                                          "endIso":  "2026-10-08T11:35:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "12:15",
+                                                          "to":  "13:05",
+                                                          "startIso":  "2026-10-08T12:15:00-07:00",
+                                                          "endIso":  "2026-10-08T13:05:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "13:50",
+                                                          "to":  "14:00",
+                                                          "startIso":  "2026-10-08T13:50:00-07:00",
+                                                          "endIso":  "2026-10-08T14:00:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "14:30",
+                                                          "to":  "16:00",
+                                                          "startIso":  "2026-10-08T14:30:00-07:00",
+                                                          "endIso":  "2026-10-08T16:00:00-07:00"
+                                                      }
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-09",
+                                      "dow":  "Fri",
+                                      "dowFull":  "Friday",
+                                      "label":  "Oct 9",
+                                      "open":  false,
+                                      "note":  "Fall break",
+                                      "windows":  [
+
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-10",
+                                      "dow":  "Sat",
+                                      "dowFull":  "Saturday",
+                                      "label":  "Oct 10",
+                                      "open":  false,
+                                      "note":  "",
+                                      "windows":  [
+
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-11",
+                                      "dow":  "Sun",
+                                      "dowFull":  "Sunday",
+                                      "label":  "Oct 11",
+                                      "open":  false,
+                                      "note":  "",
+                                      "windows":  [
+
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-12",
+                                      "dow":  "Mon",
+                                      "dowFull":  "Monday",
+                                      "label":  "Oct 12",
+                                      "open":  false,
+                                      "note":  "Fall break",
+                                      "windows":  [
+
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-13",
+                                      "dow":  "Tue",
+                                      "dowFull":  "Tuesday",
+                                      "label":  "Oct 13",
+                                      "open":  false,
+                                      "note":  "Fall break",
+                                      "windows":  [
+
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-14",
+                                      "dow":  "Wed",
+                                      "dowFull":  "Wednesday",
+                                      "label":  "Oct 14",
+                                      "open":  true,
+                                      "note":  "",
+                                      "windows":  [
+                                                      {
+                                                          "from":  "07:00",
+                                                          "to":  "16:00",
+                                                          "startIso":  "2026-10-14T07:00:00-07:00",
+                                                          "endIso":  "2026-10-14T16:00:00-07:00"
+                                                      }
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-15",
+                                      "dow":  "Thu",
+                                      "dowFull":  "Thursday",
+                                      "label":  "Oct 15",
+                                      "open":  true,
+                                      "note":  "",
+                                      "windows":  [
+                                                      {
+                                                          "from":  "07:00",
+                                                          "to":  "08:00",
+                                                          "startIso":  "2026-10-15T07:00:00-07:00",
+                                                          "endIso":  "2026-10-15T08:00:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "09:20",
+                                                          "to":  "09:30",
+                                                          "startIso":  "2026-10-15T09:20:00-07:00",
+                                                          "endIso":  "2026-10-15T09:30:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "10:50",
+                                                          "to":  "11:40",
+                                                          "startIso":  "2026-10-15T10:50:00-07:00",
+                                                          "endIso":  "2026-10-15T11:40:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "13:00",
+                                                          "to":  "13:10",
+                                                          "startIso":  "2026-10-15T13:00:00-07:00",
+                                                          "endIso":  "2026-10-15T13:10:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "14:30",
+                                                          "to":  "16:00",
+                                                          "startIso":  "2026-10-15T14:30:00-07:00",
+                                                          "endIso":  "2026-10-15T16:00:00-07:00"
+                                                      }
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-16",
+                                      "dow":  "Fri",
+                                      "dowFull":  "Friday",
+                                      "label":  "Oct 16",
+                                      "open":  true,
+                                      "note":  "",
+                                      "windows":  [
+                                                      {
+                                                          "from":  "07:00",
+                                                          "to":  "08:00",
+                                                          "startIso":  "2026-10-16T07:00:00-07:00",
+                                                          "endIso":  "2026-10-16T08:00:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "09:20",
+                                                          "to":  "09:45",
+                                                          "startIso":  "2026-10-16T09:20:00-07:00",
+                                                          "endIso":  "2026-10-16T09:45:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "11:05",
+                                                          "to":  "11:15",
+                                                          "startIso":  "2026-10-16T11:05:00-07:00",
+                                                          "endIso":  "2026-10-16T11:15:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "12:35",
+                                                          "to":  "16:00",
+                                                          "startIso":  "2026-10-16T12:35:00-07:00",
+                                                          "endIso":  "2026-10-16T16:00:00-07:00"
+                                                      }
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-17",
+                                      "dow":  "Sat",
+                                      "dowFull":  "Saturday",
+                                      "label":  "Oct 17",
+                                      "open":  false,
+                                      "note":  "",
+                                      "windows":  [
+
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-18",
+                                      "dow":  "Sun",
+                                      "dowFull":  "Sunday",
+                                      "label":  "Oct 18",
+                                      "open":  false,
+                                      "note":  "",
+                                      "windows":  [
+
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-19",
+                                      "dow":  "Mon",
+                                      "dowFull":  "Monday",
+                                      "label":  "Oct 19",
+                                      "open":  true,
+                                      "note":  "",
+                                      "windows":  [
+                                                      {
+                                                          "from":  "07:00",
+                                                          "to":  "08:00",
+                                                          "startIso":  "2026-10-19T07:00:00-07:00",
+                                                          "endIso":  "2026-10-19T08:00:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "09:20",
+                                                          "to":  "09:30",
+                                                          "startIso":  "2026-10-19T09:20:00-07:00",
+                                                          "endIso":  "2026-10-19T09:30:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "10:50",
+                                                          "to":  "11:40",
+                                                          "startIso":  "2026-10-19T10:50:00-07:00",
+                                                          "endIso":  "2026-10-19T11:40:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "13:00",
+                                                          "to":  "13:10",
+                                                          "startIso":  "2026-10-19T13:00:00-07:00",
+                                                          "endIso":  "2026-10-19T13:10:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "14:30",
+                                                          "to":  "16:00",
+                                                          "startIso":  "2026-10-19T14:30:00-07:00",
+                                                          "endIso":  "2026-10-19T16:00:00-07:00"
+                                                      }
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-20",
+                                      "dow":  "Tue",
+                                      "dowFull":  "Tuesday",
+                                      "label":  "Oct 20",
+                                      "open":  true,
+                                      "note":  "",
+                                      "windows":  [
+                                                      {
+                                                          "from":  "07:00",
+                                                          "to":  "08:00",
+                                                          "startIso":  "2026-10-20T07:00:00-07:00",
+                                                          "endIso":  "2026-10-20T08:00:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "09:20",
+                                                          "to":  "11:40",
+                                                          "startIso":  "2026-10-20T09:20:00-07:00",
+                                                          "endIso":  "2026-10-20T11:40:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "13:00",
+                                                          "to":  "13:10",
+                                                          "startIso":  "2026-10-20T13:00:00-07:00",
+                                                          "endIso":  "2026-10-20T13:10:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "14:30",
+                                                          "to":  "16:00",
+                                                          "startIso":  "2026-10-20T14:30:00-07:00",
+                                                          "endIso":  "2026-10-20T16:00:00-07:00"
+                                                      }
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-21",
+                                      "dow":  "Wed",
+                                      "dowFull":  "Wednesday",
+                                      "label":  "Oct 21",
+                                      "open":  true,
+                                      "note":  "",
+                                      "windows":  [
+                                                      {
+                                                          "from":  "07:00",
+                                                          "to":  "08:00",
+                                                          "startIso":  "2026-10-21T07:00:00-07:00",
+                                                          "endIso":  "2026-10-21T08:00:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "09:20",
+                                                          "to":  "09:30",
+                                                          "startIso":  "2026-10-21T09:20:00-07:00",
+                                                          "endIso":  "2026-10-21T09:30:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "10:50",
+                                                          "to":  "11:40",
+                                                          "startIso":  "2026-10-21T10:50:00-07:00",
+                                                          "endIso":  "2026-10-21T11:40:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "13:00",
+                                                          "to":  "13:10",
+                                                          "startIso":  "2026-10-21T13:00:00-07:00",
+                                                          "endIso":  "2026-10-21T13:10:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "14:30",
+                                                          "to":  "16:00",
+                                                          "startIso":  "2026-10-21T14:30:00-07:00",
+                                                          "endIso":  "2026-10-21T16:00:00-07:00"
+                                                      }
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-22",
+                                      "dow":  "Thu",
+                                      "dowFull":  "Thursday",
+                                      "label":  "Oct 22",
+                                      "open":  true,
+                                      "note":  "",
+                                      "windows":  [
+                                                      {
+                                                          "from":  "07:00",
+                                                          "to":  "09:30",
+                                                          "startIso":  "2026-10-22T07:00:00-07:00",
+                                                          "endIso":  "2026-10-22T09:30:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "10:50",
+                                                          "to":  "11:40",
+                                                          "startIso":  "2026-10-22T10:50:00-07:00",
+                                                          "endIso":  "2026-10-22T11:40:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "13:00",
+                                                          "to":  "13:10",
+                                                          "startIso":  "2026-10-22T13:00:00-07:00",
+                                                          "endIso":  "2026-10-22T13:10:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "14:30",
+                                                          "to":  "16:00",
+                                                          "startIso":  "2026-10-22T14:30:00-07:00",
+                                                          "endIso":  "2026-10-22T16:00:00-07:00"
+                                                      }
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-23",
+                                      "dow":  "Fri",
+                                      "dowFull":  "Friday",
+                                      "label":  "Oct 23",
+                                      "open":  true,
+                                      "note":  "",
+                                      "windows":  [
+                                                      {
+                                                          "from":  "07:00",
+                                                          "to":  "08:00",
+                                                          "startIso":  "2026-10-23T07:00:00-07:00",
+                                                          "endIso":  "2026-10-23T08:00:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "09:20",
+                                                          "to":  "09:30",
+                                                          "startIso":  "2026-10-23T09:20:00-07:00",
+                                                          "endIso":  "2026-10-23T09:30:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "10:50",
+                                                          "to":  "11:40",
+                                                          "startIso":  "2026-10-23T10:50:00-07:00",
+                                                          "endIso":  "2026-10-23T11:40:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "13:00",
+                                                          "to":  "13:10",
+                                                          "startIso":  "2026-10-23T13:00:00-07:00",
+                                                          "endIso":  "2026-10-23T13:10:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "14:30",
+                                                          "to":  "16:00",
+                                                          "startIso":  "2026-10-23T14:30:00-07:00",
+                                                          "endIso":  "2026-10-23T16:00:00-07:00"
+                                                      }
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-24",
+                                      "dow":  "Sat",
+                                      "dowFull":  "Saturday",
+                                      "label":  "Oct 24",
+                                      "open":  false,
+                                      "note":  "",
+                                      "windows":  [
+
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-25",
+                                      "dow":  "Sun",
+                                      "dowFull":  "Sunday",
+                                      "label":  "Oct 25",
+                                      "open":  false,
+                                      "note":  "",
+                                      "windows":  [
+
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-26",
+                                      "dow":  "Mon",
+                                      "dowFull":  "Monday",
+                                      "label":  "Oct 26",
+                                      "open":  true,
+                                      "note":  "",
+                                      "windows":  [
+                                                      {
+                                                          "from":  "07:00",
+                                                          "to":  "08:00",
+                                                          "startIso":  "2026-10-26T07:00:00-07:00",
+                                                          "endIso":  "2026-10-26T08:00:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "09:20",
+                                                          "to":  "11:40",
+                                                          "startIso":  "2026-10-26T09:20:00-07:00",
+                                                          "endIso":  "2026-10-26T11:40:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "13:00",
+                                                          "to":  "13:10",
+                                                          "startIso":  "2026-10-26T13:00:00-07:00",
+                                                          "endIso":  "2026-10-26T13:10:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "14:30",
+                                                          "to":  "16:00",
+                                                          "startIso":  "2026-10-26T14:30:00-07:00",
+                                                          "endIso":  "2026-10-26T16:00:00-07:00"
+                                                      }
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-27",
+                                      "dow":  "Tue",
+                                      "dowFull":  "Tuesday",
+                                      "label":  "Oct 27",
+                                      "open":  true,
+                                      "note":  "",
+                                      "windows":  [
+                                                      {
+                                                          "from":  "07:00",
+                                                          "to":  "08:00",
+                                                          "startIso":  "2026-10-27T07:00:00-07:00",
+                                                          "endIso":  "2026-10-27T08:00:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "09:20",
+                                                          "to":  "09:30",
+                                                          "startIso":  "2026-10-27T09:20:00-07:00",
+                                                          "endIso":  "2026-10-27T09:30:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "10:50",
+                                                          "to":  "11:40",
+                                                          "startIso":  "2026-10-27T10:50:00-07:00",
+                                                          "endIso":  "2026-10-27T11:40:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "13:00",
+                                                          "to":  "13:10",
+                                                          "startIso":  "2026-10-27T13:00:00-07:00",
+                                                          "endIso":  "2026-10-27T13:10:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "14:30",
+                                                          "to":  "16:00",
+                                                          "startIso":  "2026-10-27T14:30:00-07:00",
+                                                          "endIso":  "2026-10-27T16:00:00-07:00"
+                                                      }
+                                                  ]
+                                  }
+                              ]
+                 }
 }
