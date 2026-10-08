@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "generated":  1791482125223,
-    "generatedIso":  "2026-10-08T10:55:25-07:00",
+    "generated":  1791483025428,
+    "generatedIso":  "2026-10-08T11:10:25-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1791097200000,
     "totals":  {
-                   "clubMs":  12543635,
-                   "weekMs":  12543635,
+                   "clubMs":  13388048,
+                   "weekMs":  13388048,
                    "pilots":  8,
                    "activePilots7":  8,
-                   "flights":  15
+                   "flights":  16
                },
     "pilots":  [
                    {
@@ -24,10 +24,10 @@
                    },
                    {
                        "name":  "Jacob S.",
-                       "totalMs":  3351891,
-                       "weekMs":  3351891,
-                       "lastSeen":  1791482116380,
-                       "flights":  6
+                       "totalMs":  4196304,
+                       "weekMs":  4196304,
+                       "lastSeen":  1791482960800,
+                       "flights":  7
                    },
                    {
                        "name":  "Greyson P",
@@ -73,6 +73,11 @@
                    }
                ],
     "recent":  [
+                   {
+                       "name":  "Jacob S.",
+                       "start":  1791481109346,
+                       "flownMs":  1818266
+                   },
                    {
                        "name":  "Jacob S.",
                        "start":  1791480866251,
@@ -142,11 +147,6 @@
                        "name":  "Jacob S.",
                        "start":  1791389830793,
                        "flownMs":  145551
-                   },
-                   {
-                       "name":  "Micah T.",
-                       "start":  1791388372205,
-                       "flownMs":  195222
                    }
                ],
     "schedule":  {
