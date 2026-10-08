@@ -23,8 +23,4 @@ headless mode hangs after printing). Never edit the PDFs.
   painted over the art. The images are ~1150 px wide, so 11×17 prints will be
   a little soft — a higher-resolution export can be dropped in under the same
   name.
-- **Waiting for art:** `club/05-tba.jpg` ("TBA — The leaders in high school
-  aviation") and `club/06-dream-big.jpg` ("Dream Big, Fly Far"). Save them
-  there, run `gen_club.py` + `build.py`, and add the two sheets to
-  `assets/posters.js`.
 - No `box-shadow` (prints as grey slabs); two fonts only.

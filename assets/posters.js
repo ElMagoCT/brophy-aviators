@@ -1,8 +1,8 @@
 /* The poster list, shared by the home page strip and posters/index.html.
    file = the sheet name in posters/src (PDF in posters/, PNG in posters/preview/).
    by: 'club' = art made by members, framed with the QR strip by gen_club.py.
-   24-club-tba and 25-club-dream-big go in once their art is saved into
-   posters/src/club/ (see posters/README.md). */
+   New member art: save it into posters/src/club/, add a row to gen_club.py,
+   run gen_club.py + build.py, then add it here. */
 window.POSTERS = [
   { file: '01-cleared-for-takeoff', title: 'Cleared for Takeoff', by: 'chart', note: 'The club ad: sim, yoke, VR rig, three steps.' },
   { file: '02-log-your-hours',      title: 'Log Your Hours',      by: 'chart', note: 'The weekly leaderboard and this website.' },
@@ -13,5 +13,7 @@ window.POSTERS = [
   { file: '20-club-own-the-skies',  title: 'Own the Skies',       by: 'club',  note: 'By Andrews Studios.' },
   { file: '21-club-learn-to-fly',   title: 'Learn to Fly',        by: 'club',  note: 'Formation over the hills.' },
   { file: '22-club-command-storm',  title: 'Command the Storm',   by: 'club',  note: 'Take the controls.' },
-  { file: '23-club-learn-to-fly-2', title: 'Learn to Fly',        by: 'club',  note: 'Sunset over the ridge.' }
+  { file: '23-club-learn-to-fly-2', title: 'Learn to Fly',        by: 'club',  note: 'Sunset over the ridge.' },
+  { file: '24-club-tba',            title: 'TBA',                 by: 'club',  note: 'The leaders in high school aviation.' },
+  { file: '25-club-dream-big',      title: 'Dream Big, Fly Far',  by: 'club',  note: 'Flight simulator, training, adventure.' }
 ];
