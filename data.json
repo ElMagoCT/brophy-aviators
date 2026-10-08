@@ -1,26 +1,26 @@
 {
     "schemaVersion":  1,
-    "generated":  1791484825186,
-    "generatedIso":  "2026-10-08T11:40:25-07:00",
+    "generated":  1791485725192,
+    "generatedIso":  "2026-10-08T11:55:25-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1791097200000,
     "totals":  {
-                   "clubMs":  13726452,
-                   "weekMs":  13726452,
+                   "clubMs":  13943173,
+                   "weekMs":  13943173,
                    "pilots":  9,
                    "activePilots7":  9,
-                   "flights":  17
+                   "flights":  18
                },
     "pilots":  [
                    {
                        "name":  "Micah T.",
-                       "totalMs":  5557968,
-                       "weekMs":  5557968,
-                       "lastSeen":  1791484808590,
-                       "flights":  2
+                       "totalMs":  5774689,
+                       "weekMs":  5774689,
+                       "lastSeen":  1791485025326,
+                       "flights":  3
                    },
                    {
                        "name":  "Jacob S.",
@@ -80,6 +80,11 @@
                    }
                ],
     "recent":  [
+                   {
+                       "name":  "Micah T.",
+                       "start":  1791484808590,
+                       "flownMs":  216721
+                   },
                    {
                        "name":  "Grayson Mackle",
                        "start":  1791484434845,
@@ -149,11 +154,6 @@
                        "name":  "Greyson P",
                        "start":  1791393743480,
                        "flownMs":  956205
-                   },
-                   {
-                       "name":  "Greyson P",
-                       "start":  1791391846744,
-                       "flownMs":  1763221
                    }
                ],
     "schedule":  {
