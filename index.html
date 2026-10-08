@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brophy Aviators Club</title>
+<meta name="description" content="Live hours and leaderboard for the Brophy Aviators Club flight simulator: Microsoft Flight Simulator 2024 with a yoke, VR and a motion rig. Updated by the kiosk through the day.">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<div class="chartbg" id="chart"></div>
+<div class="wrap">
+
+  <header class="mast">
+    <a class="brand" href="./">
+      <svg viewBox="0 0 64 64" fill="none" stroke-width="2.4" aria-hidden="true"><circle cx="32" cy="32" r="29" stroke="#2b4d9c"/><circle cx="32" cy="32" r="19" stroke="#b9348a"/><path d="M8 34 L30 30 L32 22 L34 30 L56 34 L34 35 L33 44 L38 47 L26 47 L31 44 L30 35 Z" stroke="#1c1c1c" fill="#ffffff" stroke-linejoin="round"/></svg>
+      <div><div class="club">Brophy Aviators Club</div><div class="sub">Flight simulator lab</div></div>
+    </a>
+    <nav class="links">
+      <a href="#board">Board</a><a href="#hours">Lab hours</a><a href="posters/">Posters</a>
+      <a class="btn solid" href="https://forms.gle/XQv9fGLGWvsgWXJi9" target="_blank" rel="noopener">Join the club</a>
+    </nav>
+  </header>
+
+  <section class="grid top">
+    <div class="card status" id="status">
+      <div class="legend">The lab</div>
+      <div class="big" id="st-big">&mdash;</div>
+      <div class="until" id="st-until">Loading the lab hours&hellip;</div>
+      <div class="note" id="st-note"></div>
+    </div>
+    <div class="card blue hero">
+      <div class="legend">Microsoft Flight Simulator 2024<span class="right" id="updated"></span></div>
+      <h1>Every hour flown, <span>live.</span></h1>
+      <p>Sign in on the kiosk, fly, and your time shows up here. The leaderboard ranks hours this week and resets every Sunday.</p>
+      <div class="stats">
+        <div class="stat"><div class="n" id="s-week">&mdash;</div><div class="k">Club hours this week</div></div>
+        <div class="stat"><div class="n" id="s-all">&mdash;</div><div class="k">Club hours all-time</div></div>
+        <div class="stat"><div class="n" id="s-pilots">&mdash;</div><div class="k">Pilots</div></div>
+        <div class="stat"><div class="n" id="s-active">&mdash;</div><div class="k">Flew in the last 7 days</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid two" id="board">
+    <div class="card teal">
+      <div class="legend">Leaderboard<span class="right">Resets Sunday</span></div>
+      <div class="tools">
+        <div class="seg" role="group" aria-label="Rank by">
+          <button type="button" data-sort="week" aria-pressed="true">This week</button>
+          <button type="button" data-sort="all" aria-pressed="false">All-time</button>
+        </div>
+        <input class="find" id="find" type="search" placeholder="Find your name" autocomplete="off" aria-label="Find your name">
+      </div>
+      <div class="tablewrap">
+        <table class="board">
+          <thead><tr><th>#</th><th>Pilot</th><th class="r">Week</th><th class="r">All-time</th></tr></thead>
+          <tbody id="rows"><tr><td colspan="4" class="empty">Loading&hellip;</td></tr></tbody>
+        </table>
+      </div>
+      <div class="more" id="more"></div>
+    </div>
+    <div class="card blue">
+      <div class="legend">Recent flights</div>
+      <ul class="flights" id="flights"><li class="empty">Loading&hellip;</li></ul>
+    </div>
+  </section>
+
+  <section class="card" id="hours">
+    <div class="legend">Lab hours &middot; next 7 days<span class="right" id="h-src"></span></div>
+    <div class="week" id="week"></div>
+  </section>
+
+  <section class="grid two">
+    <div class="card">
+      <div class="legend">Posters</div>
+      <div class="strip" id="strip"></div>
+      <p class="more"><a href="posters/">All posters, print-ready 11&times;17 PDFs &rarr;</a></p>
+    </div>
+    <div class="card magenta">
+      <div class="legend">Join</div>
+      <div class="join">
+        <img src="posters/src/qr-join.svg" alt="QR code for the club sign-up form">
+        <div>
+          <p>New to flying? Perfect. Fill in the sign-up form and come find the sim.</p>
+          <a class="btn solid" href="https://forms.gle/XQv9fGLGWvsgWXJi9" target="_blank" rel="noopener">Sign-up form</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>The kiosk posts new numbers every 15 minutes while the lab is in use</span>
+    <span><a href="https://elmagoct.github.io/brophy-uav-dashboard/">Brophy UAV &middot; FPV lab</a></span>
+  </footer>
+</div>
+<script src="assets/chart.js"></script>
+<script src="assets/posters.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Cleared for Takeoff - Brophy Aviators</title>
+<link rel="stylesheet" href="poster.css">
+<style>
+  h1{font-size:160px;font-weight:600;line-height:.86;letter-spacing:-.01em;margin-top:48px;text-transform:uppercase}
+  h1 .blue{color:var(--blue)}
+  .atc{align-self:flex-start;display:inline-block;margin-top:28px;font-family:var(--mono);font-size:25px;letter-spacing:.06em;background:var(--white);
+    border:2px solid var(--magenta);color:var(--magenta);padding:14px 20px;line-height:1.45}
+  .atc b{font-weight:400;color:var(--ink)}
+  .lede{font-size:31px;font-weight:500;line-height:1.3;margin-top:26px;max-width:800px}
+  .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:34px}
+  .fact{padding:22px 24px 24px}
+  .fact .n{font-size:42px;font-weight:600;line-height:1.02;margin-top:14px}
+  .fact .s{font-size:18px;color:var(--muted);margin-top:10px;line-height:1.3}
+  .steps{display:flex;gap:16px;margin-top:24px;align-items:stretch}
+  .step{flex:1;padding:20px 22px;display:flex;gap:16px;align-items:center}
+  .step .k{font-family:var(--mono);font-size:44px;color:var(--blue);line-height:1}
+  .step .t{font-size:25px;font-weight:600;line-height:1.1}
+  .step .s{font-size:16px;color:var(--muted);margin-top:4px}
+  .sheet{display:flex;flex-direction:column}
+  .bottom{margin-top:auto;margin-bottom:46px;padding-top:24px}
+</style></head>
+<body>
+<div class="chartbg" id="chart"></div>
+<div class="sheet">
+  <div class="mast"><svg viewBox="0 0 64 64" fill="none" stroke-width="2.4" aria-hidden="true"><circle cx="32" cy="32" r="29" stroke="#2b4d9c"/><circle cx="32" cy="32" r="19" stroke="#b9348a"/><path d="M8 34 L30 30 L32 22 L34 30 L56 34 L34 35 L33 44 L38 47 L26 47 L31 44 L30 35 Z" stroke="#1c1c1c" fill="#ffffff" stroke-linejoin="round"/></svg><div><div class="club">Brophy Aviators Club</div><div class="sub">Flight simulator lab</div></div></div>
+
+  <h1>Cleared<br>for <span class="blue">takeoff.</span></h1>
+  <div class="atc"><b>BRONCO 1, RUNWAY 8, WIND 090 AT 6,</b><br>CLEARED FOR TAKEOFF.</div>
+  <div class="lede">A real flight simulator, a real yoke, and the whole planet to fly. No experience needed &mdash; that is what the club is for.</div>
+
+  <div class="facts">
+    <div class="card blue fact"><div class="legend">The sim</div><div class="n">Flight Simulator 2024</div><div class="s">Microsoft's sim: the entire Earth, real weather, airliners to gliders.</div></div>
+    <div class="card magenta fact"><div class="legend">The cockpit</div><div class="n">Yoke, throttle &amp; pedals</div><div class="s">Fly it with your hands and feet, the way pilots do.</div></div>
+    <div class="card teal fact"><div class="legend">The extra</div><div class="n">VR on a motion rig</div><div class="s">Headset on, and the seat moves with the aircraft.</div></div>
+  </div>
+
+  <div class="steps">
+    <div class="card step"><div class="k">1</div><div><div class="t">Join</div><div class="s">Scan the sign-up form below</div></div></div>
+    <div class="card step"><div class="k">2</div><div><div class="t">Sign in</div><div class="s">Your name on the kiosk screen</div></div></div>
+    <div class="card step"><div class="k">3</div><div><div class="t">Fly</div><div class="s">Your hours log themselves</div></div></div>
+  </div>
+
+  <div class="bottom qrs">
+    <div class="card magenta qr"><img src="qr-join.svg" alt=""><div class="say"><b>Join</b>The Brophy Aviators sign-up form</div></div>
+    <div class="card teal qr"><img src="qr-site.svg" alt=""><div class="say"><b>Hours</b>Live leaderboard, lab hours &amp; every pilot's time</div></div>
+  </div>
+  <div class="foot"><span>Brophy Aviators Club</span><span>Flight sim &middot; training &middot; adventure</span></div>
+</div>
+<script src="chart.js"></script>
+<script>drawChart(document.getElementById('chart'), { tall: true, alpha: .9 });</script>
+</body></html>

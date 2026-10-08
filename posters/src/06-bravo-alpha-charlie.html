@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Bravo Alpha Charlie - Brophy Aviators</title>
+<link rel="stylesheet" href="poster.css">
+<style>
+  .sheet{display:flex;flex-direction:column}
+  h1{font-size:118px;font-weight:600;line-height:.9;margin-top:40px;text-transform:uppercase}
+  h1 span{display:block}
+  h1 .x{font-family:var(--mono);font-weight:400;font-size:30px;letter-spacing:.2em;color:var(--muted);margin-top:14px}
+  .lede{font-size:28px;line-height:1.3;margin-top:22px;max-width:860px}
+  .abc{display:grid;grid-template-columns:repeat(8,1fr);gap:9px;margin-top:30px}
+  .l{background:#fff;border:2px solid var(--hair);padding:10px 10px 12px}
+  .l .c{font-family:var(--mono);font-size:44px;line-height:1}
+  .l .w{font-size:18px;font-weight:600;margin-top:6px}
+  .l .p{font-family:var(--mono);font-size:14px;white-space:nowrap;color:var(--muted);margin-top:2px;letter-spacing:.04em}
+  .l.on{border-color:var(--blue)}.l.on .c,.l.on .w{color:var(--blue)}
+  .l.say{border-color:var(--magenta)}.l.say .c,.l.say .w{color:var(--magenta)}
+  .key{display:flex;gap:26px;margin-top:16px;font-family:var(--mono);font-size:16px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .key i{display:inline-block;width:22px;height:14px;border:2px solid;vertical-align:-2px;margin-right:8px}
+  .bottom{margin-top:auto;margin-bottom:46px;padding-top:18px}
+  .qr img{width:150px;height:150px}
+</style></head>
+<body>
+<div class="chartbg" id="chart"></div>
+<div class="sheet">
+  <div class="mast"><svg viewBox="0 0 64 64" fill="none" stroke-width="2.4" aria-hidden="true"><circle cx="32" cy="32" r="29" stroke="#2b4d9c"/><circle cx="32" cy="32" r="19" stroke="#b9348a"/><path d="M8 34 L30 30 L32 22 L34 30 L56 34 L34 35 L33 44 L38 47 L26 47 L31 44 L30 35 Z" stroke="#1c1c1c" fill="#ffffff" stroke-linejoin="round"/></svg><div><div class="club">Brophy Aviators Club</div><div class="sub">Flight simulator lab</div></div></div>
+
+  <h1><span>Bravo</span><span style="color:var(--blue)">Alpha</span><span style="color:var(--magenta)">Charlie.</span><span class="x">B &middot; A &middot; C &mdash; Brophy Aviators Club</span></h1>
+  <div class="lede">Talk like a pilot. The ICAO spelling alphabet is how every pilot and controller on Earth spells over the radio.</div>
+
+  <div class="abc" id="abc"></div>
+  <div class="key"><span><i style="color:var(--blue)"></i>B &middot; A &middot; C</span><span><i style="color:var(--magenta)"></i>Numbers pilots say differently</span><span>Capitals = stress</span></div>
+
+  <div class="bottom qrs">
+    <div class="card magenta qr"><img src="qr-join.svg" alt=""><div class="say"><b>Join</b>The Brophy Aviators sign-up form</div></div>
+    <div class="card teal qr"><img src="qr-site.svg" alt=""><div class="say"><b>Hours</b>Live leaderboard &amp; lab hours</div></div>
+  </div>
+  <div class="foot"><span>Brophy Aviators Club</span><span>Bravo Alpha Charlie, out</span></div>
+</div>
+<script src="chart.js"></script>
+<script>
+drawChart(document.getElementById('chart'), { tall: true, alpha: .9 });
+(function(){
+  /* ICAO radiotelephony spelling alphabet, with the ICAO pronunciation guide
+     (stressed syllable in capitals). Brophy Aviators Club = B, A, C. */
+  var A = [['A','Alfa','AL fah'],['B','Bravo','BRAH voh'],['C','Charlie','CHAR lee'],['D','Delta','DELL tah'],['E','Echo','ECK oh'],['F','Foxtrot','FOKS trot'],
+    ['G','Golf','golf'],['H','Hotel','hoh TELL'],['I','India','IN dee ah'],['J','Juliett','JEW lee ett'],['K','Kilo','KEY loh'],['L','Lima','LEE mah'],
+    ['M','Mike','mike'],['N','November','no VEM ber'],['O','Oscar','OSS cah'],['P','Papa','pah PAH'],['Q','Quebec','keh BECK'],['R','Romeo','ROW me oh'],
+    ['S','Sierra','see AIR rah'],['T','Tango','TANG go'],['U','Uniform','YOU nee form'],['V','Victor','VIK tah'],['W','Whiskey','WISS key'],['X','X-ray','ECKS ray'],
+    ['Y','Yankee','YANG key'],['Z','Zulu','ZOO loo']];
+  var N = [['3','Tree','TREE'],['4','Fower','FOW er'],['5','Fife','FIFE'],['9','Niner','NIN er'],['.','Decimal','DAY see MAL'],['1000','Tousand','TOU SAND']];
+  function cells(list, on){
+    var h = '';
+    for(var i = 0; i < list.length; i++){
+      var c = on(list[i]) ? ' on' : '';
+      h += '<div class="l' + c + '"><div class="c">' + list[i][0] + '</div><div class="w">' + list[i][1] + '</div><div class="p">' + list[i][2] + '</div></div>';
+    }
+    return h;
+  }
+  document.getElementById('abc').innerHTML = cells(A, function(r){ return 'BAC'.indexOf(r[0]) >= 0; }) +
+    cells(N, function(){ return false; }).replace(/class="l"/g, 'class="l say"');
+})();
+</script>
+</body></html>

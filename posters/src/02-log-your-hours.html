@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Log Your Hours - Brophy Aviators</title>
+<link rel="stylesheet" href="poster.css">
+<style>
+  .sheet{display:flex;flex-direction:column}
+  h1{font-size:176px;font-weight:600;line-height:.86;margin-top:52px;text-transform:uppercase}
+  h1 .teal{color:var(--teal)}
+  .lede{font-size:30px;line-height:1.3;margin-top:30px;max-width:840px}
+  .board{margin-top:40px;padding:26px 30px 18px}
+  .board .legend .right{margin-left:auto;color:var(--muted);letter-spacing:.12em}
+  table{width:100%;border-collapse:collapse;margin-top:16px}
+  th{font-family:var(--mono);font-weight:400;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);
+    text-align:left;padding:0 6px 10px;border-bottom:2px solid var(--teal)}
+  th.r,td.r{text-align:right}
+  td{padding:11px 6px;border-bottom:1px dashed var(--hair);font-size:28px;height:62px}
+  td.n{font-family:var(--mono);color:var(--teal);width:60px;font-size:28px}
+  td.r{font-family:var(--mono);width:150px;color:var(--muted)}
+  td .blank{display:inline-block;width:300px;border-bottom:2px solid var(--hair);height:24px;vertical-align:middle}
+  tr.you td{background-color:#eef1f8;color:var(--blue)}
+  tr.you td.n{border-left:4px solid var(--blue);color:var(--blue)}
+  tr.you td.r{color:var(--blue)}
+  .notes{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;margin-top:22px}
+  .note{padding:18px 20px}
+  .note .t{font-size:24px;font-weight:600;margin-top:10px;line-height:1.15}
+  .note .s{font-size:16px;color:var(--muted);margin-top:6px}
+  .bottom{margin-top:auto;margin-bottom:46px;padding-top:24px}
+  .qr.big img{width:200px;height:200px}
+  .qr.big .say{max-width:260px;font-size:18px}
+</style></head>
+<body>
+<div class="chartbg" id="chart"></div>
+<div class="sheet">
+  <div class="mast"><svg viewBox="0 0 64 64" fill="none" stroke-width="2.4" aria-hidden="true"><circle cx="32" cy="32" r="29" stroke="#2b4d9c"/><circle cx="32" cy="32" r="19" stroke="#b9348a"/><path d="M8 34 L30 30 L32 22 L34 30 L56 34 L34 35 L33 44 L38 47 L26 47 L31 44 L30 35 Z" stroke="#1c1c1c" fill="#ffffff" stroke-linejoin="round"/></svg><div><div class="club">Brophy Aviators Club</div><div class="sub">Flight simulator lab</div></div></div>
+
+  <h1>Log your<br><span class="teal">hours.</span></h1>
+  <div class="lede">Every minute you fly the sim is logged by the kiosk and posted on the club website. The board resets every Sunday &mdash; anyone can be #1 by Friday.</div>
+
+  <div class="card teal board">
+    <div class="legend">Leaderboard &middot; hours this week<span class="right">Resets Sunday</span></div>
+    <table>
+      <tr><th>#</th><th>Pilot</th><th class="r">Week</th><th class="r">All-time</th></tr>
+      <tr class="you"><td class="n">1</td><td>Your name here</td><td class="r">?.?h</td><td class="r">?.?h</td></tr>
+      <tr><td class="n">2</td><td><span class="blank"></span></td><td class="r">&mdash;</td><td class="r">&mdash;</td></tr>
+      <tr><td class="n">3</td><td><span class="blank"></span></td><td class="r">&mdash;</td><td class="r">&mdash;</td></tr>
+      <tr><td class="n">4</td><td><span class="blank"></span></td><td class="r">&mdash;</td><td class="r">&mdash;</td></tr>
+      <tr><td class="n">5</td><td><span class="blank"></span></td><td class="r">&mdash;</td><td class="r">&mdash;</td></tr>
+    </table>
+  </div>
+
+  <div class="notes">
+    <div class="card blue note"><div class="legend">Logged</div><div class="t">Sign in &amp; fly</div><div class="s">Time counts while you are signed in and the sim is running.</div></div>
+    <div class="card magenta note"><div class="legend">Posted</div><div class="t">Live online</div><div class="s">The website updates through the day, on your phone.</div></div>
+    <div class="card note"><div class="legend">Kept</div><div class="t">All-time stays</div><div class="s">The week resets Sunday. Your all-time total never does.</div></div>
+  </div>
+
+  <div class="bottom qrs">
+    <div class="card teal qr big"><img src="qr-site.svg" alt=""><div class="say"><b>See the board</b>Who is flying the most this week, every pilot's hours, and when the lab is open</div></div>
+    <div class="card magenta qr"><img src="qr-join.svg" alt=""><div class="say"><b>Join</b>The club sign-up form</div></div>
+  </div>
+  <div class="foot"><span>Brophy Aviators Club</span><span>Hours logged at the kiosk</span></div>
+</div>
+<script src="chart.js"></script>
+<script>drawChart(document.getElementById('chart'), { tall: true, alpha: .9 });</script>
+</body></html>

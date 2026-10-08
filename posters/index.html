@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aviators Posters</title>
+<meta name="description" content="Print-ready 11x17 posters for the Brophy Aviators Club flight simulator, each with QR codes to the sign-up form and the live hours site.">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/site.css">
+<style>
+  .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px;margin-top:14px}
+  .p{padding:0;display:flex;flex-direction:column}
+  .p img{display:block;width:100%;aspect-ratio:11/17;object-fit:cover;border-bottom:2px solid var(--hair)}
+  .p .cap{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+  .p .t{font-weight:600;font-size:19px;line-height:1.2}
+  .p .s{font-size:15px;color:var(--muted);flex:1}
+  .p .k{font-family:var(--mono);font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+  .p.chart .k{color:var(--blue)}.p.club .k{color:var(--magenta)}
+  .p .btn{align-self:flex-start;font-size:13px;padding:6px 10px;color:var(--blue);border-color:var(--blue)}
+  .p .btn:hover{background:var(--blue);color:var(--white)}
+  .intro{margin:12px 0 0;max-width:720px}
+</style>
+</head>
+<body>
+<div class="chartbg" id="chart"></div>
+<div class="wrap">
+  <header class="mast">
+    <a class="brand" href="../">
+      <svg viewBox="0 0 64 64" fill="none" stroke-width="2.4" aria-hidden="true"><circle cx="32" cy="32" r="29" stroke="#2b4d9c"/><circle cx="32" cy="32" r="19" stroke="#b9348a"/><path d="M8 34 L30 30 L32 22 L34 30 L56 34 L34 35 L33 44 L38 47 L26 47 L31 44 L30 35 Z" stroke="#1c1c1c" fill="#ffffff" stroke-linejoin="round"/></svg>
+      <div><div class="club">Brophy Aviators Club</div><div class="sub">Posters</div></div>
+    </a>
+    <nav class="links">
+      <a href="../#board">Board</a><a href="../#hours">Lab hours</a><a href="./" aria-current="page">Posters</a>
+      <a class="btn solid" href="https://forms.gle/XQv9fGLGWvsgWXJi9" target="_blank" rel="noopener">Join the club</a>
+    </nav>
+  </header>
+
+  <section class="card">
+    <div class="legend">Print-ready &middot; 11 &times; 17 in</div>
+    <p class="intro">Every poster carries two QR codes: <b>Join</b> (the club sign-up form) and <b>Hours</b> (this website). Tap a poster for the PDF. Member-made art is framed with the same QR strip; nothing is painted over it.</p>
+    <div class="gal" id="gal"></div>
+  </section>
+
+  <footer><span>Brophy Aviators Club</span><span><a href="../">Live hours &amp; leaderboard</a></span></footer>
+</div>
+<script src="../assets/chart.js"></script>
+<script src="../assets/posters.js"></script>
+<script>
+drawChart(document.getElementById('chart'), { alpha: .8, tall: window.innerHeight > window.innerWidth });
+document.getElementById('gal').innerHTML = window.POSTERS.map(function (p) {
+  return '<div class="card p ' + p.by + '"><a href="' + p.file + '.pdf"><img loading="lazy" src="preview/' + p.file + '.png" alt="' + p.title + ' poster"></a>' +
+    '<div class="cap"><div class="k">' + (p.by === 'club' ? 'Member art' : 'Chart series') + '</div><div class="t">' + p.title + '</div><div class="s">' + p.note + '</div>' +
+    '<a class="btn" href="' + p.file + '.pdf" download>PDF</a></div></div>';
+}).join('');
+</script>
+</body>
+</html>

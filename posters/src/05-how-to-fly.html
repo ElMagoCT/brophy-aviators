@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>How to Fly the Sim - Brophy Aviators</title>
+<link rel="stylesheet" href="poster.css">
+<style>
+  .sheet{display:flex;flex-direction:column}
+  h1{font-size:112px;font-weight:600;line-height:.9;margin-top:40px;text-transform:uppercase}
+  h1 .blue{color:var(--blue)}
+  .steps{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
+  .step{padding:18px 20px 20px}
+  .step .row{display:flex;gap:14px;align-items:baseline;margin-top:10px}
+  .step .k{font-family:var(--mono);font-size:50px;line-height:.9;color:var(--blue)}
+  .step .t{font-size:30px;font-weight:600;line-height:1.05}
+  .step .s{font-size:18px;color:var(--muted);margin-top:8px;line-height:1.3}
+  .step img{display:block;width:100%;border:1px solid var(--hair);margin-top:14px}
+  .btn{display:inline-block;font-family:var(--mono);font-size:17px;letter-spacing:.1em;padding:2px 8px;border:2px solid currentColor}
+  .good{margin-top:18px;padding:18px 22px}
+  .good ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px 26px;margin-top:12px}
+  .good li{font-size:18px;line-height:1.3;padding-left:22px;position:relative}
+  .good li::before{content:"";position:absolute;left:0;top:10px;width:12px;border-top:2px solid var(--teal)}
+  .good li b{font-weight:600}
+  .bottom{margin-top:auto;margin-bottom:46px;padding-top:18px}
+  .qr img{width:150px;height:150px}
+</style></head>
+<body>
+<div class="chartbg" id="chart"></div>
+<div class="sheet">
+  <div class="mast"><svg viewBox="0 0 64 64" fill="none" stroke-width="2.4" aria-hidden="true"><circle cx="32" cy="32" r="29" stroke="#2b4d9c"/><circle cx="32" cy="32" r="19" stroke="#b9348a"/><path d="M8 34 L30 30 L32 22 L34 30 L56 34 L34 35 L33 44 L38 47 L26 47 L31 44 L30 35 Z" stroke="#1c1c1c" fill="#ffffff" stroke-linejoin="round"/></svg><div><div class="club">Brophy Aviators Club</div><div class="sub">Flight simulator lab</div></div></div>
+
+  <h1>How to fly<br><span class="blue">the sim.</span></h1>
+
+  <div class="steps">
+    <div class="card blue step"><div class="legend">On the monitor</div>
+      <div class="row"><div class="k">1</div><div class="t">Sign in</div></div>
+      <div class="s">Tap your name. First time? Type first name + last initial under <b>New pilot</b> and press <span class="btn">Add &amp; sign in</span></div>
+      <img src="img/kiosk-picker.jpg" alt=""></div>
+    <div class="card magenta step"><div class="legend">On the TV</div>
+      <div class="row"><div class="k">2</div><div class="t">Fly</div></div>
+      <div class="s">Press <span class="btn" style="color:var(--magenta)">FLY &rarr; THE TV</span> and take the yoke. The sim un-pauses and your time counts.</div>
+      <img src="img/kiosk-signed-in.jpg" alt=""></div>
+    <div class="card teal step"><div class="legend">Optional</div>
+      <div class="row"><div class="k">3</div><div class="t">Want VR?</div></div>
+      <div class="s">Switch the headset on, press <span class="btn" style="color:var(--blue)">TURN ON VR</span>, put it on and sit still for the 10-second countdown.</div></div>
+    <div class="card red step"><div class="legend">Finished</div>
+      <div class="row"><div class="k" style="color:var(--red)">4</div><div class="t">Done flying</div></div>
+      <div class="s">Back at the monitor, press <span class="btn" style="color:var(--red)">DONE FLYING</span>. Time saved, flight logged, sim paused for the next pilot.</div></div>
+  </div>
+
+  <div class="card good"><div class="legend" style="color:var(--teal)">Good to know</div>
+    <ul>
+      <li><b>Time paused (idle)</b> &mdash; no yoke, key or mouse for 30 s. Move anything to carry on.</li>
+      <li><b>Signed out</b> after 3 idle minutes, time saved first.</li>
+      <li><b>The board</b> ranks hours this week and resets Sunday at midnight.</li>
+      <li><b>Lab hours</b> follow the school day; it shuts while a class is in the room.</li>
+    </ul>
+  </div>
+
+  <div class="bottom qrs">
+    <div class="card magenta qr"><img src="qr-join.svg" alt=""><div class="say"><b>Join</b>The Brophy Aviators sign-up form</div></div>
+    <div class="card teal qr"><img src="qr-site.svg" alt=""><div class="say"><b>Hours</b>Is the lab open? Who is #1?</div></div>
+  </div>
+  <div class="foot"><span>Brophy Aviators Club</span><span>Questions? Ask an officer</span></div>
+</div>
+<script src="chart.js"></script>
+<script>drawChart(document.getElementById('chart'), { tall: true, alpha: .9 });</script>
+</body></html>

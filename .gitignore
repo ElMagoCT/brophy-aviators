@@ -1,0 +1,4 @@
+publish.log
+.snapshot-hash
+.DS_Store
+*.bak-*

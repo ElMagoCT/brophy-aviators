@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Strap In - Brophy Aviators</title>
+<link rel="stylesheet" href="poster.css">
+<style>
+  .sheet{display:flex;flex-direction:column}
+  h1{font-size:170px;font-weight:600;line-height:.86;margin-top:46px;text-transform:uppercase}
+  h1 .blue{color:var(--blue)}
+  .lede{font-size:30px;line-height:1.3;margin-top:24px;max-width:860px}
+  .rig{margin-top:30px;padding:20px 24px 14px}
+  .rig svg{display:block;height:310px;width:auto;margin:0 auto}
+  .kit{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;margin-top:20px}
+  .kit .card{padding:18px 20px 20px}
+  .kit .t{font-size:25px;font-weight:600;line-height:1.1;margin-top:10px}
+  .kit .s{font-size:16px;color:var(--muted);margin-top:6px;line-height:1.3}
+  .how{margin-top:20px;padding:18px 22px;display:flex;gap:14px;align-items:center;font-family:var(--mono);font-size:19px;letter-spacing:.06em}
+  .how .arr{color:var(--blue)}
+  .how b{font-weight:400;color:var(--blue);border:2px solid var(--blue);padding:4px 10px}
+  .bottom{margin-top:auto;margin-bottom:46px;padding-top:20px}
+</style></head>
+<body>
+<div class="chartbg" id="chart"></div>
+<div class="sheet">
+  <div class="mast"><svg viewBox="0 0 64 64" fill="none" stroke-width="2.4" aria-hidden="true"><circle cx="32" cy="32" r="29" stroke="#2b4d9c"/><circle cx="32" cy="32" r="19" stroke="#b9348a"/><path d="M8 34 L30 30 L32 22 L34 30 L56 34 L34 35 L33 44 L38 47 L26 47 L31 44 L30 35 Z" stroke="#1c1c1c" fill="#ffffff" stroke-linejoin="round"/></svg><div><div class="club">Brophy Aviators Club</div><div class="sub">Flight simulator lab</div></div></div>
+
+  <h1>Strap<br><span class="blue">in.</span></h1>
+  <div class="lede">Put on the headset and you are in the cockpit. Bank the yoke and the seat banks with you. This is as close to flying as it gets without leaving the ground.</div>
+
+  <div class="card blue rig">
+    <div class="legend">The motion rig</div>
+    <svg viewBox="0 0 900 380" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <!-- base platform -->
+      <path d="M220 330 H680" stroke="#1c1c1c" stroke-width="4"/>
+      <path d="M260 330 L300 280 M640 330 L600 280" stroke="#1c1c1c" stroke-width="3"/>
+      <g>
+      <rect x="290" y="262" width="320" height="22" stroke="rgba(28,28,28,.28)" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+      <!-- seat -->
+      <path d="M360 262 V200 Q360 186 374 186 H500 Q512 186 514 198 L520 262" stroke="rgba(28,28,28,.28)" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+      <path d="M372 186 L340 70 Q336 54 352 52 H372 Q384 52 388 64 L420 186" stroke="rgba(28,28,28,.28)" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+      <!-- yoke column + pedals -->
+      <path d="M560 262 V150 M540 150 H600 M540 130 V170 M600 130 V170" stroke="rgba(28,28,28,.28)" stroke-width="2" stroke-dasharray="6 6"/>
+      <path d="M600 262 L620 240 H650" stroke="rgba(28,28,28,.28)" stroke-width="2" stroke-dasharray="6 6"/>
+      <!-- headset -->
+      <rect x="352" y="22" width="56" height="26" rx="8" stroke="rgba(28,28,28,.28)" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+      </g>
+      <g transform="rotate(-7 450 284)">
+      <rect x="290" y="262" width="320" height="22" stroke="#1c1c1c" stroke-width="3" fill="#fff"/>
+      <!-- seat -->
+      <path d="M360 262 V200 Q360 186 374 186 H500 Q512 186 514 198 L520 262" stroke="#1c1c1c" stroke-width="3" fill="#fff"/>
+      <path d="M372 186 L340 70 Q336 54 352 52 H372 Q384 52 388 64 L420 186" stroke="#1c1c1c" stroke-width="3" fill="#fff"/>
+      <!-- yoke column + pedals -->
+      <path d="M560 262 V150 M540 150 H600 M540 130 V170 M600 130 V170" stroke="#1c1c1c" stroke-width="3"/>
+      <path d="M600 262 L620 240 H650" stroke="#1c1c1c" stroke-width="3"/>
+      <!-- headset -->
+      <rect x="352" y="22" width="56" height="26" rx="8" stroke="#2b4d9c" stroke-width="3" fill="#fff"/>
+      </g>
+      <!-- pitch arrow -->
+      <path d="M180 250 A120 120 0 0 1 180 110" stroke="#b9348a" stroke-width="3"/>
+      <path d="M172 122 L180 108 L192 120" stroke="#b9348a" stroke-width="3"/>
+      <path d="M170 238 L180 252 L192 240" stroke="#b9348a" stroke-width="3"/>
+      <text x="150" y="190" fill="#b9348a" font-family="Share Tech Mono, monospace" font-size="22" text-anchor="end">PITCH</text>
+      <!-- roll arrow -->
+      <path d="M690 120 A90 40 0 0 1 830 150" stroke="#2f7f8a" stroke-width="3"/>
+      <path d="M816 140 L832 152 L816 160" stroke="#2f7f8a" stroke-width="3"/>
+      <text x="760" y="198" fill="#2f7f8a" font-family="Share Tech Mono, monospace" font-size="22" text-anchor="middle">ROLL</text>
+      <text x="450" y="368" fill="rgba(28,28,28,.62)" font-family="Share Tech Mono, monospace" font-size="17" text-anchor="middle" letter-spacing="2">THE SEAT FOLLOWS THE AIRCRAFT</text>
+    </svg>
+  </div>
+
+  <div class="kit">
+    <div class="card blue"><div class="legend">Headset</div><div class="t">Pimax Crystal Light</div><div class="s">High-resolution VR. Look around the cockpit, out the window, over your shoulder.</div></div>
+    <div class="card magenta"><div class="legend">Motion</div><div class="t">DoF Reality motion platform</div><div class="s">Driven by the sim, so you feel the turns, climbs and bumps.</div></div>
+    <div class="card teal"><div class="legend">Steady view</div><div class="t">Motion compensation</div><div class="s">A gyro on the rig keeps the world still while the seat moves.</div></div>
+  </div>
+
+  <div class="card how"><span>Headset on</span><span class="arr">&rarr;</span><b>TURN ON VR</b><span class="arr">&rarr;</span><span>Sit still 10 s</span><span class="arr">&rarr;</span><span>Fly</span></div>
+
+  <div class="bottom qrs">
+    <div class="card magenta qr"><img src="qr-join.svg" alt=""><div class="say"><b>Join</b>The Brophy Aviators sign-up form</div></div>
+    <div class="card teal qr"><img src="qr-site.svg" alt=""><div class="say"><b>Hours</b>Live leaderboard &amp; when the lab is open</div></div>
+  </div>
+  <div class="foot"><span>Brophy Aviators Club</span><span>VR &middot; motion &middot; yoke</span></div>
+</div>
+<script src="chart.js"></script>
+<script>drawChart(document.getElementById('chart'), { tall: true, alpha: .9 });</script>
+</body></html>

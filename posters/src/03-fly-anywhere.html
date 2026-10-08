@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Fly Anywhere - Brophy Aviators</title>
+<link rel="stylesheet" href="poster.css">
+<style>
+  .sheet{display:flex;flex-direction:column}
+  h1{font-size:136px;font-weight:600;line-height:.88;margin-top:40px;text-transform:uppercase}
+  h1 .magenta{color:var(--magenta)}
+  .lede{font-size:28px;line-height:1.3;margin-top:22px;max-width:860px}
+  .mapcard{margin-top:24px;padding:18px 22px 14px}
+  .mapcard .legend .right{margin-left:auto;color:var(--muted);letter-spacing:.1em}
+  #map{display:block;width:690px;height:auto;margin:4px auto 0}
+  .cap{font-size:15px;color:var(--muted);margin-top:4px;font-family:var(--mono);letter-spacing:.06em}
+  .bottom{margin-top:auto;margin-bottom:46px;padding-top:20px}
+</style></head>
+<body>
+<div class="chartbg" id="chart"></div>
+<div class="sheet">
+  <div class="mast"><svg viewBox="0 0 64 64" fill="none" stroke-width="2.4" aria-hidden="true"><circle cx="32" cy="32" r="29" stroke="#2b4d9c"/><circle cx="32" cy="32" r="19" stroke="#b9348a"/><path d="M8 34 L30 30 L32 22 L34 30 L56 34 L34 35 L33 44 L38 47 L26 47 L31 44 L30 35 Z" stroke="#1c1c1c" fill="#ffffff" stroke-linejoin="round"/></svg><div><div class="club">Brophy Aviators Club</div><div class="sub">Flight simulator lab</div></div></div>
+
+  <h1>Fly<br><span class="magenta">anywhere.</span></h1>
+  <div class="lede">Flight Simulator 2024 models the whole planet. Take off from Sky Harbor; land in Tokyo, at Everest, or on a ski-slope runway in the Alps.</div>
+
+  <div class="card magenta mapcard">
+    <div class="legend">Departing KPHX &middot; Phoenix Sky Harbor<span class="right">Distances in nautical miles</span></div>
+    <svg id="map" viewBox="0 0 900 820"></svg>
+    <div class="cap">Centred on KPHX: straight lines are the shortest routes; rings every 1,000 NM.</div>
+  </div>
+
+  <div class="bottom qrs">
+    <div class="card magenta qr"><img src="qr-join.svg" alt=""><div class="say"><b>Join</b>The Brophy Aviators sign-up form</div></div>
+    <div class="card teal qr"><img src="qr-site.svg" alt=""><div class="say"><b>Hours</b>Live leaderboard &amp; when the lab is open</div></div>
+  </div>
+  <div class="foot"><span>Brophy Aviators Club</span><span>Pick a runway</span></div>
+</div>
+<script src="chart.js"></script>
+<script>
+drawChart(document.getElementById('chart'), { tall: true, alpha: .9 });
+(function(){
+  /* Great-circle distance and initial bearing from KPHX, computed here so the
+     numbers on the poster are the real ones. Coordinates are the airports'. */
+  var O = [33.434, -112.012];
+  var DEST = [
+    ['KJFK', 'New York JFK',            40.640,  -73.779, 'u'],
+    ['LFLJ', 'Courchevel, Alps',        45.397,    6.635, 'r'],
+    ['TNCM', 'St. Maarten (beach)',     18.041,  -63.109, 'r'],
+    ['SCIP', 'Easter Island',          -27.165, -109.422, 'r'],
+    ['NZQN', 'Queenstown, NZ',         -45.021,  168.739, 'l'],
+    ['PHNL', 'Honolulu',                21.318, -157.922, 'l'],
+    ['RJTT', 'Tokyo Haneda',            35.552,  139.780, 'l'],
+    ['VNLK', 'Lukla, Everest',          27.687,   86.731, 'r']
+  ];
+  var RAD = Math.PI / 180, NM = 3440.065;
+  function geo(la2, lo2){
+    var la1 = O[0] * RAD, lo1 = O[1] * RAD; la2 *= RAD; lo2 *= RAD;
+    var d = lo2 - lo1;
+    var c = Math.acos(Math.sin(la1) * Math.sin(la2) + Math.cos(la1) * Math.cos(la2) * Math.cos(d));
+    var b = Math.atan2(Math.sin(d) * Math.cos(la2), Math.cos(la1) * Math.sin(la2) - Math.sin(la1) * Math.cos(la2) * Math.cos(d));
+    return { nm: c * NM, brg: (b / RAD + 360) % 360 };
+  }
+  var cx = 450, cy = 410, PX = 370 / 7000;   /* 7,000 NM to the outer ring */
+  var BLUE = '#2b4d9c', MAG = '#b9348a', TEAL = '#2f7f8a', INK = '#1c1c1c', MONO = 'Share Tech Mono, monospace';
+  var s = [], i, k;
+  function t(x, y, str, fill, size, extra){ return '<text x="' + x.toFixed(1) + '" y="' + y.toFixed(1) + '" fill="' + fill + '" font-size="' + size + '" font-family="' + MONO + '"' + (extra || '') + '>' + str + '</text>'; }
+  for(k = 1; k <= 7; k++){
+    s.push('<circle cx="' + cx + '" cy="' + cy + '" r="' + (k * 1000 * PX).toFixed(1) + '" fill="none" stroke="' + BLUE + '" stroke-width="' + (k === 7 ? 2.4 : 1.2) + '" opacity="' + (k === 7 ? .7 : .35) + '"/>');
+    if(k % 2 === 1) s.push(t(cx + 4, cy - k * 1000 * PX - 5, (k * 1000).toLocaleString('en-US'), BLUE, 13, ' opacity=".7"'));
+  }
+  for(k = 0; k < 360; k += 5){
+    var a = (k - 90) * RAD, R = 7000 * PX, L = k % 30 === 0 ? 16 : (k % 10 === 0 ? 10 : 5);
+    s.push('<line x1="' + (cx + Math.cos(a) * R).toFixed(1) + '" y1="' + (cy + Math.sin(a) * R).toFixed(1) + '" x2="' + (cx + Math.cos(a) * (R + L)).toFixed(1) + '" y2="' + (cy + Math.sin(a) * (R + L)).toFixed(1) + '" stroke="' + BLUE + '" stroke-width="1.3" opacity=".7"/>');
+    if(k % 30 === 0) s.push(t(cx + Math.cos(a) * (R + 30), cy + Math.sin(a) * (R + 30) + 5, String(k).length < 3 ? ('00' + k).slice(-3) : k, BLUE, 14, ' text-anchor="middle" opacity=".8"'));
+  }
+  for(i = 0; i < DEST.length; i++){
+    var g = geo(DEST[i][2], DEST[i][3]), ang = (g.brg - 90) * RAD, r = Math.max(g.nm * PX, 26);
+    var x = cx + Math.cos(ang) * r, y = cy + Math.sin(ang) * r;
+    s.push('<line x1="' + cx + '" y1="' + cy + '" x2="' + x.toFixed(1) + '" y2="' + y.toFixed(1) + '" stroke="' + MAG + '" stroke-width="2.4" stroke-dasharray="10 6"/>');
+    s.push('<circle cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="7" fill="#fff" stroke="' + MAG + '" stroke-width="2.6"/>');
+    if(DEST[i][4] === 'u'){ y -= 30; x -= 10; }
+    var right = DEST[i][4] !== 'l', dx = right ? 14 : -14, anc = right ? 'start' : 'end';
+    var nm = Math.round(g.nm / 10) * 10;
+    s.push('<g><rect x="' + (right ? x + 8 : x - 8 - 190).toFixed(1) + '" y="' + (y - 20).toFixed(1) + '" width="190" height="58" fill="#fff" opacity=".85"/>' +
+      t(x + dx, y - 2, DEST[i][0] + ' &#183; ' + nm.toLocaleString('en-US') + ' NM', INK, 16, ' text-anchor="' + anc + '"') +
+      '<text x="' + (x + dx).toFixed(1) + '" y="' + (y + 22).toFixed(1) + '" fill="' + MAG + '" font-size="19" font-family="Barlow, sans-serif" font-weight="600" text-anchor="' + anc + '">' + DEST[i][1] + '</text></g>');
+  }
+  s.push('<circle cx="' + cx + '" cy="' + cy + '" r="10" fill="' + BLUE + '"/><circle cx="' + cx + '" cy="' + cy + '" r="17" fill="none" stroke="' + BLUE + '" stroke-width="2"/>');
+  s.push(t(cx - 22, cy + 38, 'KPHX', BLUE, 18, ' text-anchor="end"'));
+  document.getElementById('map').innerHTML = s.join('');
+})();
+</script>
+</body></html>

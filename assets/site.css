@@ -1,0 +1,125 @@
+/* Brophy Aviators - the website. Same sectional-chart look as the kiosk
+   (brophy-aviators-kiosk/chart.css): cream paper, one ink, colour from LINES -
+   Class B blue = pilots, Class C magenta = the sim / joining, airway teal =
+   the leaderboard. White cards with a 2px outline and a mono legend label.
+   Two fonts only: Barlow and Share Tech Mono, self-hosted. Light only. */
+@font-face{font-family:'Barlow';font-weight:400;font-display:swap;src:url(fonts/barlow-400.woff2) format('woff2')}
+@font-face{font-family:'Barlow';font-weight:500;font-display:swap;src:url(fonts/barlow-500.woff2) format('woff2')}
+@font-face{font-family:'Barlow';font-weight:600;font-display:swap;src:url(fonts/barlow-600.woff2) format('woff2')}
+@font-face{font-family:'Share Tech Mono';font-weight:400;font-display:swap;src:url(fonts/share-tech-mono-400.woff2) format('woff2')}
+
+:root{
+  color-scheme:light;
+  --paper:#f7f5ee;--ink:#1c1c1c;--blue:#2b4d9c;--magenta:#b9348a;--teal:#2f7f8a;
+  --tan:#c8a765;--red:#c0392b;--white:#ffffff;--tint:#eef1f8;
+  --muted:rgba(28,28,28,.64);--hair:rgba(28,28,28,.14);
+  --mono:'Share Tech Mono',Consolas,monospace;--sans:'Barlow','Segoe UI',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background-color:var(--paper);color:var(--ink);font-family:var(--sans);font-weight:500;font-size:17px;line-height:1.45;min-height:100vh}
+a{color:var(--blue)}
+.chartbg{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.75}
+.chartbg svg{width:100%;height:100%;display:block}
+.wrap{position:relative;z-index:1;max-width:1120px;margin:0 auto;padding:22px 16px 56px}
+
+/* masthead */
+header.mast{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 24px;padding-bottom:18px;border-bottom:2px solid var(--blue)}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none;color:inherit}
+.brand svg{width:54px;height:54px;flex:none}
+.brand .club{font-size:clamp(20px,4.4vw,30px);font-weight:600;letter-spacing:.12em;text-transform:uppercase;line-height:1.05}
+.brand .sub{font-family:var(--mono);font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--blue);margin-top:5px}
+nav.links{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-family:var(--mono);font-size:14px;letter-spacing:.14em;text-transform:uppercase}
+nav.links a{color:var(--ink);text-decoration:none}
+nav.links a:hover,nav.links a[aria-current]{color:var(--blue);text-decoration:underline;text-underline-offset:5px}
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:14px;letter-spacing:.14em;text-transform:uppercase;
+  text-decoration:none;color:var(--magenta);background:var(--white);border:2px solid var(--magenta);padding:9px 14px;cursor:pointer}
+.btn:hover{background:var(--magenta);color:var(--white)}
+.btn.solid{background:var(--magenta);color:var(--white)}
+.btn.solid:hover{background:#9a2a72;border-color:#9a2a72}
+
+/* cards */
+.card{background-color:var(--white);border:2px solid var(--ink);position:relative;padding:18px 20px 20px;min-width:0}
+.card.blue{border-color:var(--blue)}.card.magenta{border-color:var(--magenta)}.card.teal{border-color:var(--teal)}.card.red{border-color:var(--red)}
+.legend{font-family:var(--mono);font-size:14px;letter-spacing:.16em;text-transform:uppercase;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.legend::before{content:"";width:22px;height:0;border-top:2px solid currentColor;display:inline-block}
+.legend .right{margin-left:auto;color:var(--muted);letter-spacing:.08em}
+.card.blue>.legend{color:var(--blue)}.card.magenta>.legend{color:var(--magenta)}.card.teal>.legend{color:var(--teal)}.card.red>.legend{color:var(--red)}
+.mono{font-family:var(--mono)}
+.muted{color:var(--muted)}
+
+section{margin-top:22px}
+.grid{display:grid;gap:18px}
+.top{grid-template-columns:minmax(0,1.1fr) minmax(0,2fr)}
+.two{grid-template-columns:minmax(0,2fr) minmax(0,1fr)}
+@media (max-width:820px){.top,.two{grid-template-columns:minmax(0,1fr)}}
+
+/* status */
+.status .big{font-size:clamp(56px,11vw,84px);font-weight:600;line-height:1;letter-spacing:.04em;margin-top:14px}
+.status.open .big{color:var(--teal)}
+.status.closed .big{color:var(--red)}
+.status .until{font-size:24px;margin-top:6px}
+.status .note{font-family:var(--mono);font-size:14px;letter-spacing:.06em;color:var(--muted);margin-top:16px}
+
+/* stat tiles */
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:14px}
+@media (max-width:560px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.stat{border-top:1px dashed var(--hair);padding-top:10px}
+.stat .n{font-family:var(--mono);font-size:clamp(28px,5vw,40px);line-height:1.05}
+.stat .k{font-family:var(--mono);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+.hero h1{font-size:clamp(34px,6vw,54px);font-weight:600;line-height:1.02;margin:12px 0 0}
+.hero h1 span{color:var(--blue)}
+.hero p{margin:10px 0 0;max-width:640px;font-size:18px}
+
+/* leaderboard */
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}
+.seg{display:inline-flex;border:2px solid var(--teal)}
+.seg button{font-family:var(--mono);font-size:14px;letter-spacing:.12em;text-transform:uppercase;background:var(--white);color:var(--teal);border:0;padding:8px 12px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--teal);color:var(--white)}
+input.find{flex:1;min-width:160px;font-family:var(--sans);font-size:17px;border:2px solid var(--hair);padding:8px 12px;background:var(--white);color:var(--ink)}
+input.find:focus{outline:none;border-color:var(--blue)}
+.tablewrap{overflow-x:auto;margin-top:12px}
+table.board{width:100%;border-collapse:collapse}
+.board th{font-family:var(--mono);font-weight:400;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);text-align:left;padding:0 8px 8px;border-bottom:2px solid var(--teal);white-space:nowrap}
+.board td{padding:10px 8px;border-bottom:1px dashed var(--hair);font-size:18px}
+.board th.r,.board td.r{text-align:right}
+.board td.n{font-family:var(--mono);color:var(--teal);width:46px}
+.board td.r{font-family:var(--mono);white-space:nowrap}
+.board td.r.dim{color:var(--muted)}
+.board tr.top3 td.n{color:var(--blue)}
+.board tr.hit td{background:var(--tint);color:var(--blue)}
+.board .seen{display:block;font-family:var(--mono);font-size:13px;color:var(--muted);letter-spacing:.04em}
+.more{margin-top:12px;font-family:var(--mono);font-size:14px;letter-spacing:.06em;color:var(--muted)}
+.empty{padding:18px 4px;color:var(--muted)}
+
+/* flights */
+ul.flights{list-style:none;margin:12px 0 0;padding:0}
+.flights li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px dashed var(--hair)}
+.flights .who{font-weight:600}
+.flights .when{font-family:var(--mono);font-size:14px;color:var(--muted);display:block;font-weight:400}
+.flights .len{font-family:var(--mono);white-space:nowrap}
+
+/* hours */
+.week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px;margin-top:14px}
+@media (max-width:820px){.week{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.day{border:2px solid var(--hair);padding:10px 12px;background:var(--white)}
+.day.today{border-color:var(--blue)}
+.day .d{font-family:var(--mono);font-size:14px;letter-spacing:.12em;text-transform:uppercase}
+.day.today .d{color:var(--blue)}
+.day .w{font-family:var(--mono);font-size:14px;margin-top:6px;line-height:1.5}
+.day.shut .w{color:var(--muted)}
+
+/* join */
+.join{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:12px}
+.join img{width:150px;height:150px;flex:none;background:var(--white)}
+.join p{margin:0 0 12px}
+
+/* posters strip */
+.strip{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:12px;margin-top:14px}
+.strip a{display:block;border:2px solid var(--hair);background:var(--white)}
+.strip a:hover{border-color:var(--blue)}
+.strip img{display:block;width:100%;aspect-ratio:11/17;object-fit:cover}
+
+footer{margin-top:34px;padding-top:14px;border-top:1px dashed var(--hair);display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between;
+  font-family:var(--mono);font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+footer a{color:var(--muted)}
