@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
-    "generated":  1791529824611,
-    "generatedIso":  "2026-10-09T00:10:24-07:00",
+    "generated":  1791616224364,
+    "generatedIso":  "2026-10-10T00:10:24-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
@@ -160,17 +160,6 @@
                      "closedLabel":  "Class in session",
                      "source":  "imported 2026-10-07 08:47",
                      "days":  [
-                                  {
-                                      "date":  "2026-10-09",
-                                      "dow":  "Fri",
-                                      "dowFull":  "Friday",
-                                      "label":  "Oct 9",
-                                      "open":  false,
-                                      "note":  "Fall break",
-                                      "windows":  [
-
-                                                  ]
-                                  },
                                   {
                                       "date":  "2026-10-10",
                                       "dow":  "Sat",
@@ -682,6 +671,40 @@
                                                           "to":  "16:00",
                                                           "startIso":  "2026-10-29T14:30:00-07:00",
                                                           "endIso":  "2026-10-29T16:00:00-07:00"
+                                                      }
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-10-30",
+                                      "dow":  "Fri",
+                                      "dowFull":  "Friday",
+                                      "label":  "Oct 30",
+                                      "open":  true,
+                                      "note":  "",
+                                      "windows":  [
+                                                      {
+                                                          "from":  "07:00",
+                                                          "to":  "08:00",
+                                                          "startIso":  "2026-10-30T07:00:00-07:00",
+                                                          "endIso":  "2026-10-30T08:00:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "09:20",
+                                                          "to":  "09:45",
+                                                          "startIso":  "2026-10-30T09:20:00-07:00",
+                                                          "endIso":  "2026-10-30T09:45:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "11:05",
+                                                          "to":  "11:15",
+                                                          "startIso":  "2026-10-30T11:05:00-07:00",
+                                                          "endIso":  "2026-10-30T11:15:00-07:00"
+                                                      },
+                                                      {
+                                                          "from":  "12:35",
+                                                          "to":  "16:00",
+                                                          "startIso":  "2026-10-30T12:35:00-07:00",
+                                                          "endIso":  "2026-10-30T16:00:00-07:00"
                                                       }
                                                   ]
                                   }
