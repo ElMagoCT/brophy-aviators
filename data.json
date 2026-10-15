@@ -1,20 +1,27 @@
 {
     "schemaVersion":  1,
-    "generated":  1792092324487,
-    "generatedIso":  "2026-10-15T12:25:24-07:00",
+    "generated":  1792095026250,
+    "generatedIso":  "2026-10-15T13:10:26-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1791702000000,
     "totals":  {
-                   "clubMs":  14066162,
-                   "weekMs":  0,
-                   "pilots":  9,
-                   "activePilots7":  0,
+                   "clubMs":  14194555,
+                   "weekMs":  128393,
+                   "pilots":  10,
+                   "activePilots7":  1,
                    "flights":  18
                },
     "pilots":  [
+                   {
+                       "name":  "Parker Henderson",
+                       "totalMs":  128393,
+                       "weekMs":  128393,
+                       "lastSeen":  1792095007716,
+                       "flights":  0
+                   },
                    {
                        "name":  "Micah T.",
                        "totalMs":  5897678,
