@@ -1,26 +1,26 @@
 {
     "schemaVersion":  1,
-    "generated":  1792441524279,
-    "generatedIso":  "2026-10-19T13:25:24-07:00",
+    "generated":  1792442424447,
+    "generatedIso":  "2026-10-19T13:40:24-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1792306800000,
     "totals":  {
-                   "clubMs":  19077638,
-                   "weekMs":  923516,
+                   "clubMs":  19680946,
+                   "weekMs":  1526824,
                    "pilots":  10,
                    "activePilots7":  3,
-                   "flights":  20
+                   "flights":  21
                },
     "pilots":  [
                    {
                        "name":  "Jacob S.",
-                       "totalMs":  5119820,
-                       "weekMs":  923516,
-                       "lastSeen":  1792441518262,
-                       "flights":  7
+                       "totalMs":  5723128,
+                       "weekMs":  1526824,
+                       "lastSeen":  1792442423282,
+                       "flights":  8
                    },
                    {
                        "name":  "Micah T.",
@@ -87,6 +87,11 @@
                    }
                ],
     "recent":  [
+                   {
+                       "name":  "Jacob S.",
+                       "start":  1792440303124,
+                       "flownMs":  1526824
+                   },
                    {
                        "name":  "Micah T.",
                        "start":  1792299617941,
@@ -156,11 +161,6 @@
                        "name":  "Jacob S.",
                        "start":  1791397322606,
                        "flownMs":  76203
-                   },
-                   {
-                       "name":  "Spencer S",
-                       "start":  1791394982731,
-                       "flownMs":  349773
                    }
                ],
     "schedule":  {
