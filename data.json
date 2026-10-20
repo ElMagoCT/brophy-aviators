@@ -1,26 +1,26 @@
 {
     "schemaVersion":  1,
-    "generated":  1792532425078,
-    "generatedIso":  "2026-10-20T14:40:25-07:00",
+    "generated":  1792533325121,
+    "generatedIso":  "2026-10-20T14:55:25-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1792306800000,
     "totals":  {
-                   "clubMs":  23139228,
-                   "weekMs":  4985105,
-                   "pilots":  11,
-                   "activePilots7":  6,
-                   "flights":  24
+                   "clubMs":  23971190,
+                   "weekMs":  5817067,
+                   "pilots":  12,
+                   "activePilots7":  7,
+                   "flights":  25
                },
     "pilots":  [
                    {
                        "name":  "Colton O.",
-                       "totalMs":  1876259,
-                       "weekMs":  1683900,
-                       "lastSeen":  1792532418235,
-                       "flights":  2
+                       "totalMs":  1928110,
+                       "weekMs":  1735751,
+                       "lastSeen":  1792532509533,
+                       "flights":  3
                    },
                    {
                        "name":  "Jacob S.",
@@ -35,6 +35,13 @@
                        "weekMs":  1034161,
                        "lastSeen":  1792511028477,
                        "flights":  1
+                   },
+                   {
+                       "name":  "Cyrus G.",
+                       "totalMs":  780111,
+                       "weekMs":  780111,
+                       "lastSeen":  1792533310737,
+                       "flights":  0
                    },
                    {
                        "name":  "Greyson P",
@@ -94,6 +101,11 @@
                    }
                ],
     "recent":  [
+                   {
+                       "name":  "Colton O.",
+                       "start":  1792530693962,
+                       "flownMs":  1735751
+                   },
                    {
                        "name":  "Greyson P",
                        "start":  1792526906395,
@@ -163,11 +175,6 @@
                        "name":  "Colton O.",
                        "start":  1791417015882,
                        "flownMs":  49832
-                   },
-                   {
-                       "name":  "Colton O.",
-                       "start":  1791416055808,
-                       "flownMs":  142526
                    }
                ],
     "schedule":  {
