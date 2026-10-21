@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "generated":  1792618824890,
-    "generatedIso":  "2026-10-21T14:40:25-07:00",
+    "generated":  1792619724894,
+    "generatedIso":  "2026-10-21T14:55:25-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1792306800000,
     "totals":  {
-                   "clubMs":  33916923,
-                   "weekMs":  15762802,
+                   "clubMs":  34730275,
+                   "weekMs":  16576154,
                    "pilots":  13,
                    "activePilots7":  9,
-                   "flights":  32
+                   "flights":  33
                },
     "pilots":  [
                    {
@@ -23,18 +23,18 @@
                        "flights":  3
                    },
                    {
+                       "name":  "Colton O.",
+                       "totalMs":  3820545,
+                       "weekMs":  3628187,
+                       "lastSeen":  1792619622380,
+                       "flights":  5
+                   },
+                   {
                        "name":  "Fr. DelToro",
                        "totalMs":  3156364,
                        "weekMs":  2908659,
                        "lastSeen":  1792605639021,
                        "flights":  2
-                   },
-                   {
-                       "name":  "Colton O.",
-                       "totalMs":  3007193,
-                       "weekMs":  2814835,
-                       "lastSeen":  1792618809004,
-                       "flights":  4
                    },
                    {
                        "name":  "Jacob S.",
@@ -109,6 +109,11 @@
                ],
     "recent":  [
                    {
+                       "name":  "Colton O.",
+                       "start":  1792618405023,
+                       "flownMs":  1217311
+                   },
+                   {
                        "name":  "Cyrus G.",
                        "start":  1792613742873,
                        "flownMs":  3796405
@@ -177,11 +182,6 @@
                        "name":  "Parker Henderson",
                        "start":  1792094879305,
                        "flownMs":  3805244
-                   },
-                   {
-                       "name":  "Micah T.",
-                       "start":  1791484808590,
-                       "flownMs":  216721
                    }
                ],
     "schedule":  {
