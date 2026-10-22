@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "generated":  1792693524845,
-    "generatedIso":  "2026-10-22T11:25:25-07:00",
+    "generated":  1792694424856,
+    "generatedIso":  "2026-10-22T11:40:25-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1792306800000,
     "totals":  {
-                   "clubMs":  36088389,
-                   "weekMs":  17934267,
+                   "clubMs":  36679638,
+                   "weekMs":  18525516,
                    "pilots":  13,
                    "activePilots7":  10,
-                   "flights":  37
+                   "flights":  38
                },
     "pilots":  [
                    {
@@ -59,10 +59,10 @@
                    },
                    {
                        "name":  "Grayson Mackle",
-                       "totalMs":  573390,
-                       "weekMs":  335386,
-                       "lastSeen":  1792693510524,
-                       "flights":  2
+                       "totalMs":  1164639,
+                       "weekMs":  926635,
+                       "lastSeen":  1792694101780,
+                       "flights":  3
                    },
                    {
                        "name":  "Micah T.",
@@ -108,6 +108,11 @@
                    }
                ],
     "recent":  [
+                   {
+                       "name":  "Grayson Mackle",
+                       "start":  1792693468358,
+                       "flownMs":  633405
+                   },
                    {
                        "name":  "Jacob S.",
                        "start":  1792691677316,
@@ -177,11 +182,6 @@
                        "name":  "Greyson P",
                        "start":  1792526906395,
                        "flownMs":  552133
-                   },
-                   {
-                       "name":  "AA",
-                       "start":  1792509784690,
-                       "flownMs":  1034161
                    }
                ],
     "schedule":  {
