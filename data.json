@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "generated":  1792694424856,
-    "generatedIso":  "2026-10-22T11:40:25-07:00",
+    "generated":  1792701624852,
+    "generatedIso":  "2026-10-22T13:40:24-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1792306800000,
     "totals":  {
-                   "clubMs":  36679638,
-                   "weekMs":  18525516,
+                   "clubMs":  37061973,
+                   "weekMs":  18907850,
                    "pilots":  13,
                    "activePilots7":  10,
-                   "flights":  38
+                   "flights":  39
                },
     "pilots":  [
                    {
@@ -45,10 +45,10 @@
                    },
                    {
                        "name":  "Greyson P",
-                       "totalMs":  3758852,
-                       "weekMs":  1039426,
-                       "lastSeen":  1792686295780,
-                       "flights":  4
+                       "totalMs":  4141187,
+                       "weekMs":  1421760,
+                       "lastSeen":  1792701477081,
+                       "flights":  5
                    },
                    {
                        "name":  "AA",
@@ -108,6 +108,11 @@
                    }
                ],
     "recent":  [
+                   {
+                       "name":  "Greyson P",
+                       "start":  1792701022879,
+                       "flownMs":  382334
+                   },
                    {
                        "name":  "Grayson Mackle",
                        "start":  1792693468358,
@@ -177,11 +182,6 @@
                        "name":  "Colton O.",
                        "start":  1792530693962,
                        "flownMs":  1735751
-                   },
-                   {
-                       "name":  "Greyson P",
-                       "start":  1792526906395,
-                       "flownMs":  552133
                    }
                ],
     "schedule":  {
