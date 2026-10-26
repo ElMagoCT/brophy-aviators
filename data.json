@@ -1,20 +1,27 @@
 {
     "schemaVersion":  1,
-    "generated":  1793043624720,
-    "generatedIso":  "2026-10-26T12:40:24-07:00",
+    "generated":  1793044524770,
+    "generatedIso":  "2026-10-26T12:55:24-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1792911600000,
     "totals":  {
-                   "clubMs":  45494242,
-                   "weekMs":  4554996,
+                   "clubMs":  46395423,
+                   "weekMs":  5456177,
                    "pilots":  14,
                    "activePilots7":  10,
                    "flights":  42
                },
     "pilots":  [
+                   {
+                       "name":  "Lewkowitz",
+                       "totalMs":  2199301,
+                       "weekMs":  2199301,
+                       "lastSeen":  1793044497036,
+                       "flights":  0
+                   },
                    {
                        "name":  "Grayson Mackle",
                        "totalMs":  3057355,
@@ -28,13 +35,6 @@
                        "weekMs":  1364160,
                        "lastSeen":  1793037157178,
                        "flights":  6
-                   },
-                   {
-                       "name":  "Lewkowitz",
-                       "totalMs":  1298120,
-                       "weekMs":  1298120,
-                       "lastSeen":  1793043595847,
-                       "flights":  0
                    },
                    {
                        "name":  "Cyrus G.",
