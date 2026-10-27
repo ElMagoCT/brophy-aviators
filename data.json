@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "generated":  1793124624446,
-    "generatedIso":  "2026-10-27T11:10:24-07:00",
+    "generated":  1793125524444,
+    "generatedIso":  "2026-10-27T11:25:24-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1792911600000,
     "totals":  {
-                   "clubMs":  48329878,
-                   "weekMs":  7390632,
+                   "clubMs":  49045756,
+                   "weekMs":  8106510,
                    "pilots":  14,
                    "activePilots7":  8,
-                   "flights":  43
+                   "flights":  44
                },
     "pilots":  [
                    {
@@ -30,18 +30,18 @@
                        "flights":  4
                    },
                    {
+                       "name":  "Jacob S.",
+                       "totalMs":  8912799,
+                       "weekMs":  1649411,
+                       "lastSeen":  1793125501119,
+                       "flights":  12
+                   },
+                   {
                        "name":  "Greyson P",
                        "totalMs":  5505347,
                        "weekMs":  1364160,
                        "lastSeen":  1793037157178,
                        "flights":  6
-                   },
-                   {
-                       "name":  "Jacob S.",
-                       "totalMs":  8196921,
-                       "weekMs":  933533,
-                       "lastSeen":  1793124615811,
-                       "flights":  11
                    },
                    {
                        "name":  "Cyrus G.",
@@ -116,6 +116,11 @@
                ],
     "recent":  [
                    {
+                       "name":  "Jacob S.",
+                       "start":  1793123677036,
+                       "flownMs":  1294932
+                   },
+                   {
                        "name":  "Lewkowitz",
                        "start":  1793055464341,
                        "flownMs":  370341
@@ -184,11 +189,6 @@
                        "name":  "Gabriel E.",
                        "start":  1792607596037,
                        "flownMs":  93578
-                   },
-                   {
-                       "name":  "Jacob S.",
-                       "start":  1792606549058,
-                       "flownMs":  1004826
                    }
                ],
     "schedule":  {
