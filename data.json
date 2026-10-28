@@ -1,25 +1,25 @@
 {
     "schemaVersion":  1,
-    "generated":  1793224525215,
-    "generatedIso":  "2026-10-28T14:55:25-07:00",
+    "generated":  1793225425318,
+    "generatedIso":  "2026-10-28T15:10:25-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1792911600000,
     "totals":  {
-                   "clubMs":  63925580,
-                   "weekMs":  22986335,
+                   "clubMs":  64522346,
+                   "weekMs":  23583101,
                    "pilots":  14,
                    "activePilots7":  6,
-                   "flights":  54
+                   "flights":  55
                },
     "pilots":  [
                    {
                        "name":  "Lewkowitz",
-                       "totalMs":  8978227,
-                       "weekMs":  8978227,
-                       "lastSeen":  1793217895763,
+                       "totalMs":  9077933,
+                       "weekMs":  9077933,
+                       "lastSeen":  1793225411976,
                        "flights":  3
                    },
                    {
@@ -38,10 +38,10 @@
                    },
                    {
                        "name":  "Grayson Mackle",
-                       "totalMs":  3452604,
-                       "weekMs":  2287965,
-                       "lastSeen":  1793224492916,
-                       "flights":  5
+                       "totalMs":  3949664,
+                       "weekMs":  2785025,
+                       "lastSeen":  1793225310317,
+                       "flights":  6
                    },
                    {
                        "name":  "Jacob S.",
@@ -116,6 +116,11 @@
                ],
     "recent":  [
                    {
+                       "name":  "Grayson Mackle",
+                       "start":  1793224112308,
+                       "flownMs":  739117
+                   },
+                   {
                        "name":  "Cyrus G.",
                        "start":  1793223176925,
                        "flownMs":  821042
@@ -184,11 +189,6 @@
                        "name":  "Grayson Mackle",
                        "start":  1793033199622,
                        "flownMs":  1892716
-                   },
-                   {
-                       "name":  "Cyrus G.",
-                       "start":  1792785799173,
-                       "flownMs":  3877273
                    }
                ],
     "schedule":  {
