@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "generated":  1793305525150,
-    "generatedIso":  "2026-10-29T13:25:25-07:00",
+    "generated":  1793306425134,
+    "generatedIso":  "2026-10-29T13:40:25-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1792911600000,
     "totals":  {
-                   "clubMs":  108306629,
-                   "weekMs":  67367384,
-                   "pilots":  15,
-                   "activePilots7":  7,
-                   "flights":  57
+                   "clubMs":  109141518,
+                   "weekMs":  68202273,
+                   "pilots":  16,
+                   "activePilots7":  8,
+                   "flights":  59
                },
     "pilots":  [
                    {
@@ -31,10 +31,10 @@
                    },
                    {
                        "name":  "Cyrus G.",
-                       "totalMs":  14268593,
-                       "weekMs":  4751621,
-                       "lastSeen":  1793305523911,
-                       "flights":  6
+                       "totalMs":  14595221,
+                       "weekMs":  5078249,
+                       "lastSeen":  1793305887752,
+                       "flights":  7
                    },
                    {
                        "name":  "Drew P.",
@@ -63,6 +63,13 @@
                        "weekMs":  511205,
                        "lastSeen":  1793206044168,
                        "flights":  7
+                   },
+                   {
+                       "name":  "DJDOUBLEA",
+                       "totalMs":  508261,
+                       "weekMs":  508261,
+                       "lastSeen":  1793306424824,
+                       "flights":  1
                    },
                    {
                        "name":  "Colton O.",
@@ -122,6 +129,16 @@
                    }
                ],
     "recent":  [
+                   {
+                       "name":  "DJDOUBLEA",
+                       "start":  1793305916572,
+                       "flownMs":  144759
+                   },
+                   {
+                       "name":  "Cyrus G.",
+                       "start":  1793304280977,
+                       "flownMs":  1565397
+                   },
                    {
                        "name":  "Lewkowitz",
                        "start":  1793300667158,
@@ -186,16 +203,6 @@
                        "name":  "Jacob S.",
                        "start":  1793125045472,
                        "flownMs":  953645
-                   },
-                   {
-                       "name":  "Jacob S.",
-                       "start":  1793123677036,
-                       "flownMs":  1294932
-                   },
-                   {
-                       "name":  "Lewkowitz",
-                       "start":  1793055464341,
-                       "flownMs":  370341
                    }
                ],
     "schedule":  {
