@@ -1,15 +1,15 @@
 {
     "schemaVersion":  1,
-    "generated":  1793322625187,
-    "generatedIso":  "2026-10-29T18:10:25-07:00",
+    "generated":  1793323525216,
+    "generatedIso":  "2026-10-29T18:25:25-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1792911600000,
     "totals":  {
-                   "clubMs":  120318620,
-                   "weekMs":  79379375,
+                   "clubMs":  120853736,
+                   "weekMs":  79914491,
                    "pilots":  16,
                    "activePilots7":  8,
                    "flights":  60
@@ -17,9 +17,9 @@
     "pilots":  [
                    {
                        "name":  "Lewkowitz",
-                       "totalMs":  55376908,
-                       "weekMs":  55376908,
-                       "lastSeen":  1793322624214,
+                       "totalMs":  55912024,
+                       "weekMs":  55912024,
+                       "lastSeen":  1793323524223,
                        "flights":  4
                    },
                    {
