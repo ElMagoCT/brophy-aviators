@@ -1,26 +1,26 @@
 {
     "schemaVersion":  1,
-    "generated":  1793560224584,
-    "generatedIso":  "2026-11-01T11:10:24-08:00",
+    "generated":  1793561124881,
+    "generatedIso":  "2026-11-01T11:25:25-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1793516400000,
     "totals":  {
-                   "clubMs":  151461624,
-                   "weekMs":  1507725,
+                   "clubMs":  152022617,
+                   "weekMs":  2068719,
                    "pilots":  16,
-                   "activePilots7":  8,
-                   "flights":  63
+                   "activePilots7":  9,
+                   "flights":  65
                },
     "pilots":  [
                    {
                        "name":  "Grayson Mackle",
-                       "totalMs":  4991725,
-                       "weekMs":  1000465,
-                       "lastSeen":  1793560221596,
-                       "flights":  7
+                       "totalMs":  5296816,
+                       "weekMs":  1305557,
+                       "lastSeen":  1793560728639,
+                       "flights":  8
                    },
                    {
                        "name":  "Micah T.",
@@ -28,6 +28,20 @@
                        "weekMs":  507260,
                        "lastSeen":  1793558897236,
                        "flights":  8
+                   },
+                   {
+                       "name":  "Fr. DelToro",
+                       "totalMs":  3402034,
+                       "weekMs":  245670,
+                       "lastSeen":  1793561107238,
+                       "flights":  3
+                   },
+                   {
+                       "name":  "Jacob S.",
+                       "totalMs":  9522197,
+                       "weekMs":  10232,
+                       "lastSeen":  1793560740827,
+                       "flights":  13
                    },
                    {
                        "name":  "Lewkowitz",
@@ -49,13 +63,6 @@
                        "weekMs":  0,
                        "lastSeen":  1793218547921,
                        "flights":  8
-                   },
-                   {
-                       "name":  "Jacob S.",
-                       "totalMs":  9511965,
-                       "weekMs":  0,
-                       "lastSeen":  1793126137716,
-                       "flights":  13
                    },
                    {
                        "name":  "DJDOUBLEA",
@@ -84,13 +91,6 @@
                        "weekMs":  0,
                        "lastSeen":  1793296052471,
                        "flights":  1
-                   },
-                   {
-                       "name":  "Fr. DelToro",
-                       "totalMs":  3156364,
-                       "weekMs":  0,
-                       "lastSeen":  1792605639021,
-                       "flights":  2
                    },
                    {
                        "name":  "AA",
@@ -129,6 +129,16 @@
                    }
                ],
     "recent":  [
+                   {
+                       "name":  "Fr. DelToro",
+                       "start":  1793560742970,
+                       "flownMs":  245670
+                   },
+                   {
+                       "name":  "Grayson Mackle",
+                       "start":  1793558899414,
+                       "flownMs":  1305557
+                   },
                    {
                        "name":  "Micah T.",
                        "start":  1793558180018,
@@ -193,16 +203,6 @@
                        "name":  "Grayson Mackle",
                        "start":  1793209541718,
                        "flownMs":  153193
-                   },
-                   {
-                       "name":  "Greyson P",
-                       "start":  1793206045738,
-                       "flownMs":  3479010
-                   },
-                   {
-                       "name":  "Micah T.",
-                       "start":  1793205592246,
-                       "flownMs":  421729
                    }
                ],
     "schedule":  {
