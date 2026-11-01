@@ -1,15 +1,15 @@
 {
     "schemaVersion":  1,
-    "generated":  1793430625102,
-    "generatedIso":  "2026-10-31T00:10:25-07:00",
+    "generated":  1793517024826,
+    "generatedIso":  "2026-11-01T00:10:24-07:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
-    "weekStart":  1792911600000,
+    "weekStart":  1793516400000,
     "totals":  {
                    "clubMs":  149953898,
-                   "weekMs":  109014653,
+                   "weekMs":  0,
                    "pilots":  16,
                    "activePilots7":  8,
                    "flights":  62
@@ -18,57 +18,50 @@
                    {
                        "name":  "Lewkowitz",
                        "totalMs":  84970591,
-                       "weekMs":  84970591,
+                       "weekMs":  0,
                        "lastSeen":  1793371982559,
                        "flights":  5
                    },
                    {
-                       "name":  "Greyson P",
-                       "totalMs":  9588696,
-                       "weekMs":  5447510,
-                       "lastSeen":  1793218547921,
-                       "flights":  8
-                   },
-                   {
                        "name":  "Cyrus G.",
                        "totalMs":  14595221,
-                       "weekMs":  5078249,
+                       "weekMs":  0,
                        "lastSeen":  1793305887752,
                        "flights":  7
                    },
                    {
-                       "name":  "DJDOUBLEA",
-                       "totalMs":  4143651,
-                       "weekMs":  4143651,
-                       "lastSeen":  1793310938690,
-                       "flights":  2
-                   },
-                   {
-                       "name":  "Drew P.",
-                       "totalMs":  3788250,
-                       "weekMs":  3788250,
-                       "lastSeen":  1793296052471,
-                       "flights":  1
-                   },
-                   {
-                       "name":  "Grayson Mackle",
-                       "totalMs":  3991259,
-                       "weekMs":  2826620,
-                       "lastSeen":  1793374275012,
-                       "flights":  7
+                       "name":  "Greyson P",
+                       "totalMs":  9588696,
+                       "weekMs":  0,
+                       "lastSeen":  1793218547921,
+                       "flights":  8
                    },
                    {
                        "name":  "Jacob S.",
                        "totalMs":  9511965,
-                       "weekMs":  2248577,
+                       "weekMs":  0,
                        "lastSeen":  1793126137716,
                        "flights":  13
                    },
                    {
                        "name":  "Micah T.",
                        "totalMs":  6879686,
-                       "weekMs":  511205,
+                       "weekMs":  0,
                        "lastSeen":  1793206044168,
+                       "flights":  7
+                   },
+                   {
+                       "name":  "DJDOUBLEA",
+                       "totalMs":  4143651,
+                       "weekMs":  0,
+                       "lastSeen":  1793310938690,
+                       "flights":  2
+                   },
+                   {
+                       "name":  "Grayson Mackle",
+                       "totalMs":  3991259,
+                       "weekMs":  0,
+                       "lastSeen":  1793374275012,
                        "flights":  7
                    },
                    {
@@ -83,6 +76,13 @@
                        "totalMs":  3805244,
                        "weekMs":  0,
                        "lastSeen":  1792098812142,
+                       "flights":  1
+                   },
+                   {
+                       "name":  "Drew P.",
+                       "totalMs":  3788250,
+                       "weekMs":  0,
+                       "lastSeen":  1793296052471,
                        "flights":  1
                    },
                    {
@@ -209,17 +209,6 @@
                      "closedLabel":  "Class in session",
                      "source":  "imported 2026-10-07 08:47",
                      "days":  [
-                                  {
-                                      "date":  "2026-10-31",
-                                      "dow":  "Sat",
-                                      "dowFull":  "Saturday",
-                                      "label":  "Oct 31",
-                                      "open":  false,
-                                      "note":  "",
-                                      "windows":  [
-
-                                                  ]
-                                  },
                                   {
                                       "date":  "2026-11-01",
                                       "dow":  "Sun",
@@ -849,6 +838,17 @@
                                                           "startIso":  "2026-11-20T14:30:00-07:00",
                                                           "endIso":  "2026-11-20T16:00:00-07:00"
                                                       }
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-11-21",
+                                      "dow":  "Sat",
+                                      "dowFull":  "Saturday",
+                                      "label":  "Nov 21",
+                                      "open":  false,
+                                      "note":  "",
+                                      "windows":  [
+
                                                   ]
                                   }
                               ]
