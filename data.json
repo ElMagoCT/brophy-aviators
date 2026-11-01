@@ -1,33 +1,33 @@
 {
     "schemaVersion":  1,
-    "generated":  1793566524641,
-    "generatedIso":  "2026-11-01T12:55:24-08:00",
+    "generated":  1793567424710,
+    "generatedIso":  "2026-11-01T13:10:24-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1793516400000,
     "totals":  {
-                   "clubMs":  156966551,
-                   "weekMs":  7012653,
+                   "clubMs":  157862386,
+                   "weekMs":  7908488,
                    "pilots":  17,
                    "activePilots7":  11,
-                   "flights":  69
+                   "flights":  70
                },
     "pilots":  [
+                   {
+                       "name":  "Andrew T",
+                       "totalMs":  3171093,
+                       "weekMs":  3171093,
+                       "lastSeen":  1793567314003,
+                       "flights":  2
+                   },
                    {
                        "name":  "Fr. DelToro",
                        "totalMs":  5584148,
                        "weekMs":  2427784,
                        "lastSeen":  1793563707353,
                        "flights":  4
-                   },
-                   {
-                       "name":  "Andrew T",
-                       "totalMs":  2359590,
-                       "weekMs":  2359590,
-                       "lastSeen":  1793566502480,
-                       "flights":  1
                    },
                    {
                        "name":  "Grayson Mackle",
@@ -45,9 +45,9 @@
                    },
                    {
                        "name":  "Jackson R",
-                       "totalMs":  415679,
-                       "weekMs":  402230,
-                       "lastSeen":  1793566460134,
+                       "totalMs":  500011,
+                       "weekMs":  486562,
+                       "lastSeen":  1793567403677,
                        "flights":  2
                    },
                    {
@@ -137,6 +137,11 @@
                ],
     "recent":  [
                    {
+                       "name":  "Andrew T",
+                       "start":  1793566464200,
+                       "flownMs":  849766
+                   },
+                   {
                        "name":  "Jackson R",
                        "start":  1793566240490,
                        "flownMs":  219624
@@ -205,11 +210,6 @@
                        "name":  "Drew P.",
                        "start":  1793292203275,
                        "flownMs":  3788250
-                   },
-                   {
-                       "name":  "Grayson Mackle",
-                       "start":  1793224112308,
-                       "flownMs":  739117
                    }
                ],
     "schedule":  {
