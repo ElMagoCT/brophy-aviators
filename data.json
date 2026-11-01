@@ -1,33 +1,33 @@
 {
     "schemaVersion":  1,
-    "generated":  1793571024764,
-    "generatedIso":  "2026-11-01T14:10:25-08:00",
+    "generated":  1793571924625,
+    "generatedIso":  "2026-11-01T14:25:24-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1793516400000,
     "totals":  {
-                   "clubMs":  161379362,
-                   "weekMs":  11425465,
+                   "clubMs":  162094285,
+                   "weekMs":  12140387,
                    "pilots":  17,
                    "activePilots7":  11,
-                   "flights":  71
+                   "flights":  72
                },
     "pilots":  [
+                   {
+                       "name":  "Jacob S.",
+                       "totalMs":  13030875,
+                       "weekMs":  3518910,
+                       "lastSeen":  1793571722485,
+                       "flights":  14
+                   },
                    {
                        "name":  "Andrew T",
                        "totalMs":  3171093,
                        "weekMs":  3171093,
                        "lastSeen":  1793567314003,
                        "flights":  2
-                   },
-                   {
-                       "name":  "Jacob S.",
-                       "totalMs":  12315952,
-                       "weekMs":  2803988,
-                       "lastSeen":  1793571007545,
-                       "flights":  13
                    },
                    {
                        "name":  "Fr. DelToro",
@@ -137,6 +137,11 @@
                ],
     "recent":  [
                    {
+                       "name":  "Jacob S.",
+                       "start":  1793568173456,
+                       "flownMs":  3508677
+                   },
+                   {
                        "name":  "Jackson R",
                        "start":  1793567319319,
                        "flownMs":  807553
@@ -205,11 +210,6 @@
                        "name":  "Cyrus G.",
                        "start":  1793304280977,
                        "flownMs":  1565397
-                   },
-                   {
-                       "name":  "Lewkowitz",
-                       "start":  1793300667158,
-                       "flownMs":  2956904
                    }
                ],
     "schedule":  {
