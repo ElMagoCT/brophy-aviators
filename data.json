@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "generated":  1793656524494,
-    "generatedIso":  "2026-11-02T13:55:24-08:00",
+    "generated":  1793657424482,
+    "generatedIso":  "2026-11-02T14:10:24-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1793516400000,
     "totals":  {
-                   "clubMs":  164913509,
-                   "weekMs":  14959611,
+                   "clubMs":  165807297,
+                   "weekMs":  15853399,
                    "pilots":  18,
                    "activePilots7":  13,
-                   "flights":  75
+                   "flights":  77
                },
     "pilots":  [
                    {
@@ -38,10 +38,10 @@
                    },
                    {
                        "name":  "Lewkowitz",
-                       "totalMs":  86287648,
-                       "weekMs":  1317057,
-                       "lastSeen":  1793656500682,
-                       "flights":  5
+                       "totalMs":  86631750,
+                       "weekMs":  1661159,
+                       "lastSeen":  1793656844798,
+                       "flights":  6
                    },
                    {
                        "name":  "Grayson Mackle",
@@ -72,6 +72,13 @@
                        "flights":  1
                    },
                    {
+                       "name":  "Greyson P",
+                       "totalMs":  10138382,
+                       "weekMs":  549686,
+                       "lastSeen":  1793657401426,
+                       "flights":  9
+                   },
+                   {
                        "name":  "Micah T.",
                        "totalMs":  7386946,
                        "weekMs":  507260,
@@ -84,13 +91,6 @@
                        "weekMs":  0,
                        "lastSeen":  1793305887752,
                        "flights":  7
-                   },
-                   {
-                       "name":  "Greyson P",
-                       "totalMs":  9588696,
-                       "weekMs":  0,
-                       "lastSeen":  1793218547921,
-                       "flights":  8
                    },
                    {
                        "name":  "DJDOUBLEA",
@@ -143,6 +143,16 @@
                    }
                ],
     "recent":  [
+                   {
+                       "name":  "Greyson P",
+                       "start":  1793656849012,
+                       "flownMs":  157773
+                   },
+                   {
+                       "name":  "Lewkowitz",
+                       "start":  1793655183576,
+                       "flownMs":  1661159
+                   },
                    {
                        "name":  "Colton O.",
                        "start":  1793643731923,
@@ -207,16 +217,6 @@
                        "name":  "Micah T.",
                        "start":  1793558180018,
                        "flownMs":  507260
-                   },
-                   {
-                       "name":  "Grayson Mackle",
-                       "start":  1793374233409,
-                       "flownMs":  41595
-                   },
-                   {
-                       "name":  "Lewkowitz",
-                       "start":  1793310940316,
-                       "flownMs":  37135395
                    }
                ],
     "schedule":  {
