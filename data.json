@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "generated":  1793643924442,
-    "generatedIso":  "2026-11-02T10:25:24-08:00",
+    "generated":  1793644824361,
+    "generatedIso":  "2026-11-02T10:40:24-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1793516400000,
     "totals":  {
-                   "clubMs":  163047452,
-                   "weekMs":  13093555,
+                   "clubMs":  163596452,
+                   "weekMs":  13642554,
                    "pilots":  18,
                    "activePilots7":  13,
-                   "flights":  74
+                   "flights":  75
                },
     "pilots":  [
                    {
@@ -51,6 +51,13 @@
                        "flights":  3
                    },
                    {
+                       "name":  "Colton O.",
+                       "totalMs":  4556524,
+                       "weekMs":  735979,
+                       "lastSeen":  1793644486638,
+                       "flights":  6
+                   },
+                   {
                        "name":  "Josiah T",
                        "totalMs":  665456,
                        "weekMs":  665456,
@@ -63,13 +70,6 @@
                        "weekMs":  507260,
                        "lastSeen":  1793558897236,
                        "flights":  8
-                   },
-                   {
-                       "name":  "Colton O.",
-                       "totalMs":  4007524,
-                       "weekMs":  186980,
-                       "lastSeen":  1793643918922,
-                       "flights":  5
                    },
                    {
                        "name":  "Lewkowitz",
@@ -144,6 +144,11 @@
                ],
     "recent":  [
                    {
+                       "name":  "Colton O.",
+                       "start":  1793643731923,
+                       "flownMs":  735979
+                   },
+                   {
                        "name":  "Josiah T",
                        "start":  1793572093249,
                        "flownMs":  665456
@@ -212,11 +217,6 @@
                        "name":  "Lewkowitz",
                        "start":  1793310940316,
                        "flownMs":  37135395
-                   },
-                   {
-                       "name":  "DJDOUBLEA",
-                       "start":  1793306063093,
-                       "flownMs":  3994026
                    }
                ],
     "schedule":  {
