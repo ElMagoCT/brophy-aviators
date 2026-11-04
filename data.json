@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "generated":  1793776225007,
-    "generatedIso":  "2026-11-03T23:10:25-08:00",
+    "generated":  1793817624332,
+    "generatedIso":  "2026-11-04T10:40:24-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1793516400000,
     "totals":  {
-                   "clubMs":  174223550,
-                   "weekMs":  24269651,
+                   "clubMs":  174668622,
+                   "weekMs":  24714723,
                    "pilots":  18,
-                   "activePilots7":  13,
-                   "flights":  84
+                   "activePilots7":  14,
+                   "flights":  85
                },
     "pilots":  [
                    {
@@ -93,6 +93,13 @@
                        "flights":  1
                    },
                    {
+                       "name":  "marco c",
+                       "totalMs":  656537,
+                       "weekMs":  445072,
+                       "lastSeen":  1793817271047,
+                       "flights":  2
+                   },
+                   {
                        "name":  "DJDOUBLEA",
                        "totalMs":  4143651,
                        "weekMs":  0,
@@ -128,13 +135,6 @@
                        "flights":  1
                    },
                    {
-                       "name":  "marco c",
-                       "totalMs":  211465,
-                       "weekMs":  0,
-                       "lastSeen":  1791394973166,
-                       "flights":  1
-                   },
-                   {
                        "name":  "Gabriel E.",
                        "totalMs":  93578,
                        "weekMs":  0,
@@ -143,6 +143,11 @@
                    }
                ],
     "recent":  [
+                   {
+                       "name":  "marco c",
+                       "start":  1793816825951,
+                       "flownMs":  445072
+                   },
                    {
                        "name":  "Micah T.",
                        "start":  1793743901056,
@@ -212,11 +217,6 @@
                        "name":  "Jackson R",
                        "start":  1793567319319,
                        "flownMs":  807553
-                   },
-                   {
-                       "name":  "Andrew T",
-                       "start":  1793566464200,
-                       "flownMs":  849766
                    }
                ],
     "schedule":  {
