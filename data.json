@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
-    "generated":  1793862624616,
-    "generatedIso":  "2026-11-04T23:10:24-08:00",
+    "generated":  1793901324937,
+    "generatedIso":  "2026-11-05T09:55:25-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
@@ -11,7 +11,7 @@
                    "clubMs":  175886254,
                    "weekMs":  25932356,
                    "pilots":  18,
-                   "activePilots7":  14,
+                   "activePilots7":  13,
                    "flights":  88
                },
     "pilots":  [
