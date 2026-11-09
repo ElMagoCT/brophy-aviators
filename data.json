@@ -1,26 +1,26 @@
 {
     "schemaVersion":  1,
-    "generated":  1794248725102,
-    "generatedIso":  "2026-11-09T10:25:25-08:00",
+    "generated":  1794249625029,
+    "generatedIso":  "2026-11-09T10:40:25-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1794121200000,
     "totals":  {
-                   "clubMs":  189170664,
-                   "weekMs":  6101747,
+                   "clubMs":  189770589,
+                   "weekMs":  6701673,
                    "pilots":  20,
-                   "activePilots7":  10,
-                   "flights":  98
+                   "activePilots7":  9,
+                   "flights":  99
                },
     "pilots":  [
                    {
                        "name":  "Andrew T",
-                       "totalMs":  9057638,
-                       "weekMs":  3745608,
-                       "lastSeen":  1794248724897,
-                       "flights":  6
+                       "totalMs":  9657563,
+                       "weekMs":  4345534,
+                       "lastSeen":  1794249324836,
+                       "flights":  7
                    },
                    {
                        "name":  "Jared R.",
@@ -159,6 +159,11 @@
     "recent":  [
                    {
                        "name":  "Andrew T",
+                       "start":  1794248013637,
+                       "flownMs":  1311156
+                   },
+                   {
+                       "name":  "Andrew T",
                        "start":  1794244367024,
                        "flownMs":  2252859
                    },
@@ -226,11 +231,6 @@
                        "name":  "marco c",
                        "start":  1793816825951,
                        "flownMs":  445072
-                   },
-                   {
-                       "name":  "Micah T.",
-                       "start":  1793743901056,
-                       "flownMs":  1665279
                    }
                ],
     "schedule":  {
