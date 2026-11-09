@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "generated":  1794240625051,
-    "generatedIso":  "2026-11-09T08:10:25-08:00",
+    "generated":  1794241525046,
+    "generatedIso":  "2026-11-09T08:25:25-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1794121200000,
     "totals":  {
-                   "clubMs":  184640944,
-                   "weekMs":  1572028,
+                   "clubMs":  184906916,
+                   "weekMs":  1837999,
                    "pilots":  20,
-                   "activePilots7":  9,
-                   "flights":  94
+                   "activePilots7":  10,
+                   "flights":  96
                },
     "pilots":  [
                    {
@@ -31,10 +31,17 @@
                    },
                    {
                        "name":  "Ron Marks",
-                       "totalMs":  175334,
-                       "weekMs":  175334,
-                       "lastSeen":  1794240615770,
-                       "flights":  0
+                       "totalMs":  362226,
+                       "weekMs":  362226,
+                       "lastSeen":  1794240802668,
+                       "flights":  1
+                   },
+                   {
+                       "name":  "Jackson R",
+                       "totalMs":  1302312,
+                       "weekMs":  79079,
+                       "lastSeen":  1794241476554,
+                       "flights":  4
                    },
                    {
                        "name":  "Cyrus G.",
@@ -114,13 +121,6 @@
                        "flights":  1
                    },
                    {
-                       "name":  "Jackson R",
-                       "totalMs":  1223232,
-                       "weekMs":  0,
-                       "lastSeen":  1793568126916,
-                       "flights":  3
-                   },
-                   {
                        "name":  "AA",
                        "totalMs":  1034161,
                        "weekMs":  0,
@@ -157,6 +157,16 @@
                    }
                ],
     "recent":  [
+                   {
+                       "name":  "Jackson R",
+                       "start":  1794241397455,
+                       "flownMs":  79079
+                   },
+                   {
+                       "name":  "Ron Marks",
+                       "start":  1794240440413,
+                       "flownMs":  362226
+                   },
                    {
                        "name":  "Lewkowitz",
                        "start":  1794239543150,
@@ -221,16 +231,6 @@
                        "name":  "Greyson P",
                        "start":  1793739906033,
                        "flownMs":  1829095
-                   },
-                   {
-                       "name":  "Greyson P",
-                       "start":  1793738662906,
-                       "flownMs":  647613
-                   },
-                   {
-                       "name":  "Greyson P",
-                       "start":  1793737888478,
-                       "flownMs":  327122
                    }
                ],
     "schedule":  {
