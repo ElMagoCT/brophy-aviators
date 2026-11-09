@@ -1,20 +1,27 @@
 {
     "schemaVersion":  1,
-    "generated":  1794235229535,
-    "generatedIso":  "2026-11-09T06:40:29-08:00",
+    "generated":  1794236124933,
+    "generatedIso":  "2026-11-09T06:55:25-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1794121200000,
     "totals":  {
-                   "clubMs":  183068917,
-                   "weekMs":  0,
+                   "clubMs":  183850435,
+                   "weekMs":  781518,
                    "pilots":  19,
                    "activePilots7":  8,
-                   "flights":  92
+                   "flights":  93
                },
     "pilots":  [
+                   {
+                       "name":  "Andrew T",
+                       "totalMs":  6093548,
+                       "weekMs":  781518,
+                       "lastSeen":  1794236000752,
+                       "flights":  5
+                   },
                    {
                        "name":  "Lewkowitz",
                        "totalMs":  88450962,
@@ -56,13 +63,6 @@
                        "weekMs":  0,
                        "lastSeen":  1793572082360,
                        "flights":  5
-                   },
-                   {
-                       "name":  "Andrew T",
-                       "totalMs":  5312030,
-                       "weekMs":  0,
-                       "lastSeen":  1794235173429,
-                       "flights":  4
                    },
                    {
                        "name":  "Grayson Mackle",
@@ -151,6 +151,11 @@
                ],
     "recent":  [
                    {
+                       "name":  "Andrew T",
+                       "start":  1794235173429,
+                       "flownMs":  781518
+                   },
+                   {
                        "name":  "Greyson P",
                        "start":  1794006457366,
                        "flownMs":  1606337
@@ -219,11 +224,6 @@
                        "name":  "Lewkowitz",
                        "start":  1793731189214,
                        "flownMs":  1620850
-                   },
-                   {
-                       "name":  "Greyson P",
-                       "start":  1793657662991,
-                       "flownMs":  664307
                    }
                ],
     "schedule":  {
