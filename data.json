@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "generated":  1794509724846,
-    "generatedIso":  "2026-11-12T10:55:25-08:00",
+    "generated":  1794510624715,
+    "generatedIso":  "2026-11-12T11:10:24-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1794121200000,
     "totals":  {
-                   "clubMs":  225806547,
-                   "weekMs":  42737631,
+                   "clubMs":  226152332,
+                   "weekMs":  43083415,
                    "pilots":  22,
                    "activePilots7":  10,
-                   "flights":  127
+                   "flights":  128
                },
     "pilots":  [
                    {
@@ -31,10 +31,10 @@
                    },
                    {
                        "name":  "Lewkowitz",
-                       "totalMs":  95572734,
-                       "weekMs":  7121773,
-                       "lastSeen":  1794509712271,
-                       "flights":  10
+                       "totalMs":  95918519,
+                       "weekMs":  7467557,
+                       "lastSeen":  1794510058064,
+                       "flights":  11
                    },
                    {
                        "name":  "Hudson B",
@@ -172,6 +172,11 @@
                ],
     "recent":  [
                    {
+                       "name":  "Lewkowitz",
+                       "start":  1794508659258,
+                       "flownMs":  1383259
+                   },
+                   {
                        "name":  "Andrew T",
                        "start":  1794507992257,
                        "flownMs":  664837
@@ -240,11 +245,6 @@
                        "name":  "Hudson B",
                        "start":  1794420368427,
                        "flownMs":  1095456
-                   },
-                   {
-                       "name":  "Andrew T",
-                       "start":  1794419544013,
-                       "flownMs":  822766
                    }
                ],
     "schedule":  {
