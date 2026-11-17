@@ -1,17 +1,17 @@
 {
     "schemaVersion":  1,
-    "generated":  1794899424855,
-    "generatedIso":  "2026-11-16T23:10:24-08:00",
+    "generated":  1794936325321,
+    "generatedIso":  "2026-11-17T09:25:25-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1794726000000,
     "totals":  {
-                   "clubMs":  240079158,
-                   "weekMs":  7037467,
+                   "clubMs":  240950997,
+                   "weekMs":  7909305,
                    "pilots":  23,
-                   "activePilots7":  10,
+                   "activePilots7":  11,
                    "flights":  144
                },
     "pilots":  [
@@ -37,6 +37,13 @@
                        "flights":  14
                    },
                    {
+                       "name":  "Jacob S.",
+                       "totalMs":  14144487,
+                       "weekMs":  1113612,
+                       "lastSeen":  1794936316534,
+                       "flights":  15
+                   },
+                   {
                        "name":  "Lewkowitz",
                        "totalMs":  97811933,
                        "weekMs":  917290,
@@ -44,11 +51,11 @@
                        "flights":  15
                    },
                    {
-                       "name":  "Jacob S.",
-                       "totalMs":  13277689,
-                       "weekMs":  246814,
-                       "lastSeen":  1794862249127,
-                       "flights":  15
+                       "name":  "Grayson Mackle",
+                       "totalMs":  5301857,
+                       "weekMs":  5040,
+                       "lastSeen":  1794935443302,
+                       "flights":  8
                    },
                    {
                        "name":  "Cyrus G.",
@@ -77,13 +84,6 @@
                        "weekMs":  0,
                        "lastSeen":  1793830582153,
                        "flights":  12
-                   },
-                   {
-                       "name":  "Grayson Mackle",
-                       "totalMs":  5296816,
-                       "weekMs":  0,
-                       "lastSeen":  1793560728639,
-                       "flights":  8
                    },
                    {
                        "name":  "Colton O.",
