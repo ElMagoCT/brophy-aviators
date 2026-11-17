@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "generated":  1794937224321,
-    "generatedIso":  "2026-11-17T09:40:24-08:00",
+    "generated":  1794938124327,
+    "generatedIso":  "2026-11-17T09:55:24-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1794726000000,
     "totals":  {
-                   "clubMs":  241851895,
-                   "weekMs":  8810204,
+                   "clubMs":  242651878,
+                   "weekMs":  9610186,
                    "pilots":  23,
                    "activePilots7":  11,
-                   "flights":  144
+                   "flights":  145
                },
     "pilots":  [
                    {
@@ -24,16 +24,16 @@
                    },
                    {
                        "name":  "Jacob S.",
-                       "totalMs":  15045385,
-                       "weekMs":  2014511,
-                       "lastSeen":  1794937217458,
-                       "flights":  15
+                       "totalMs":  15683709,
+                       "weekMs":  2652834,
+                       "lastSeen":  1794937855797,
+                       "flights":  16
                    },
                    {
                        "name":  "Andrew T",
-                       "totalMs":  19558450,
-                       "weekMs":  1458559,
-                       "lastSeen":  1794852935195,
+                       "totalMs":  19720109,
+                       "weekMs":  1620218,
+                       "lastSeen":  1794938118297,
                        "flights":  18
                    },
                    {
@@ -179,6 +179,11 @@
                ],
     "recent":  [
                    {
+                       "name":  "Jacob S.",
+                       "start":  1794935444457,
+                       "flownMs":  2406020
+                   },
+                   {
                        "name":  "Fr. DelToro",
                        "start":  1794864554860,
                        "flownMs":  3241171
@@ -247,11 +252,6 @@
                        "name":  "Zane R.",
                        "start":  1794518264088,
                        "flownMs":  263408
-                   },
-                   {
-                       "name":  "Zane R.",
-                       "start":  1794516095590,
-                       "flownMs":  2015588
                    }
                ],
     "schedule":  {
