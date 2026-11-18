@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "generated":  1795026324511,
-    "generatedIso":  "2026-11-18T10:25:24-08:00",
+    "generated":  1795027224484,
+    "generatedIso":  "2026-11-18T10:40:24-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1794726000000,
     "totals":  {
-                   "clubMs":  251499459,
-                   "weekMs":  18457768,
+                   "clubMs":  252156149,
+                   "weekMs":  19114458,
                    "pilots":  23,
-                   "activePilots7":  10,
-                   "flights":  150
+                   "activePilots7":  9,
+                   "flights":  151
                },
     "pilots":  [
                    {
@@ -23,18 +23,18 @@
                        "flights":  17
                    },
                    {
+                       "name":  "Andrew T",
+                       "totalMs":  22443028,
+                       "weekMs":  4343137,
+                       "lastSeen":  1795026983190,
+                       "flights":  20
+                   },
+                   {
                        "name":  "Hudson B",
                        "totalMs":  10829614,
                        "weekMs":  3850523,
                        "lastSeen":  1795025613036,
                        "flights":  16
-                   },
-                   {
-                       "name":  "Andrew T",
-                       "totalMs":  21786338,
-                       "weekMs":  3686447,
-                       "lastSeen":  1795026317996,
-                       "flights":  19
                    },
                    {
                        "name":  "Fr. DelToro",
@@ -179,6 +179,11 @@
                ],
     "recent":  [
                    {
+                       "name":  "Andrew T",
+                       "start":  1795026127573,
+                       "flownMs":  832614
+                   },
+                   {
                        "name":  "Hudson B",
                        "start":  1795024268571,
                        "flownMs":  1232219
@@ -247,11 +252,6 @@
                        "name":  "Lewkowitz",
                        "start":  1794606494013,
                        "flownMs":  773377
-                   },
-                   {
-                       "name":  "Lewkowitz",
-                       "start":  1794606276970,
-                       "flownMs":  202747
                    }
                ],
     "schedule":  {
