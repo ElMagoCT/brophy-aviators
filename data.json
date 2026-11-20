@@ -1,17 +1,17 @@
 {
     "schemaVersion":  1,
-    "generated":  1795198224721,
-    "generatedIso":  "2026-11-20T10:10:24-08:00",
+    "generated":  1795202724796,
+    "generatedIso":  "2026-11-20T11:25:24-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1794726000000,
     "totals":  {
-                   "clubMs":  257887017,
-                   "weekMs":  24845326,
+                   "clubMs":  258049408,
+                   "weekMs":  25007717,
                    "pilots":  23,
-                   "activePilots7":  8,
+                   "activePilots7":  9,
                    "flights":  156
                },
     "pilots":  [
@@ -63,6 +63,13 @@
                        "weekMs":  508151,
                        "lastSeen":  1795038926297,
                        "flights":  4
+                   },
+                   {
+                       "name":  "AA",
+                       "totalMs":  1196552,
+                       "weekMs":  162391,
+                       "lastSeen":  1795202708496,
+                       "flights":  1
                    },
                    {
                        "name":  "Grayson Mackle",
@@ -133,13 +140,6 @@
                        "weekMs":  0,
                        "lastSeen":  1794422140077,
                        "flights":  6
-                   },
-                   {
-                       "name":  "AA",
-                       "totalMs":  1034161,
-                       "weekMs":  0,
-                       "lastSeen":  1792511028477,
-                       "flights":  1
                    },
                    {
                        "name":  "Josiah T",
