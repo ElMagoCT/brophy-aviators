@@ -1,18 +1,18 @@
 {
     "schemaVersion":  1,
-    "generated":  1795203624814,
-    "generatedIso":  "2026-11-20T11:40:24-08:00",
+    "generated":  1795204524753,
+    "generatedIso":  "2026-11-20T11:55:24-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1794726000000,
     "totals":  {
-                   "clubMs":  258950218,
-                   "weekMs":  25908527,
+                   "clubMs":  259744145,
+                   "weekMs":  26702453,
                    "pilots":  23,
                    "activePilots7":  9,
-                   "flights":  156
+                   "flights":  158
                },
     "pilots":  [
                    {
@@ -31,10 +31,10 @@
                    },
                    {
                        "name":  "Andrew T",
-                       "totalMs":  22851725,
-                       "weekMs":  4751834,
-                       "lastSeen":  1795104922300,
-                       "flights":  21
+                       "totalMs":  23047380,
+                       "weekMs":  4947488,
+                       "lastSeen":  1795204405102,
+                       "flights":  22
                    },
                    {
                        "name":  "Jacob S.",
@@ -51,18 +51,18 @@
                        "flights":  7
                    },
                    {
+                       "name":  "AA",
+                       "totalMs":  2695634,
+                       "weekMs":  1661473,
+                       "lastSeen":  1795204207612,
+                       "flights":  2
+                   },
+                   {
                        "name":  "Cyrus G.",
                        "totalMs":  22281400,
                        "weekMs":  1299416,
                        "lastSeen":  1795033708423,
                        "flights":  11
-                   },
-                   {
-                       "name":  "AA",
-                       "totalMs":  2097362,
-                       "weekMs":  1063201,
-                       "lastSeen":  1795203609327,
-                       "flights":  1
                    },
                    {
                        "name":  "Zane R.",
@@ -179,6 +179,16 @@
                ],
     "recent":  [
                    {
+                       "name":  "Andrew T",
+                       "start":  1795204209428,
+                       "flownMs":  195655
+                   },
+                   {
+                       "name":  "AA",
+                       "start":  1795202546082,
+                       "flownMs":  1661473
+                   },
+                   {
                        "name":  "Jacob S.",
                        "start":  1795196753583,
                        "flownMs":  1310299
@@ -242,16 +252,6 @@
                        "name":  "Fr. DelToro",
                        "start":  1794864554860,
                        "flownMs":  3241171
-                   },
-                   {
-                       "name":  "Jacob S.",
-                       "start":  1794862002293,
-                       "flownMs":  246814
-                   },
-                   {
-                       "name":  "Lewkowitz",
-                       "start":  1794858779437,
-                       "flownMs":  340289
                    }
                ],
     "schedule":  {
