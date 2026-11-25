@@ -1,26 +1,26 @@
 {
     "schemaVersion":  1,
-    "generated":  1795569024985,
-    "generatedIso":  "2026-11-24T17:10:25-08:00",
+    "generated":  1795569924904,
+    "generatedIso":  "2026-11-24T17:25:25-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1795330800000,
     "totals":  {
-                   "clubMs":  275769021,
-                   "weekMs":  15523269,
+                   "clubMs":  275808943,
+                   "weekMs":  15563190,
                    "pilots":  24,
                    "activePilots7":  8,
-                   "flights":  168
+                   "flights":  169
                },
     "pilots":  [
                    {
                        "name":  "Hudson B",
-                       "totalMs":  21778822,
-                       "weekMs":  8744903,
-                       "lastSeen":  1795569012000,
-                       "flights":  21
+                       "totalMs":  21818744,
+                       "weekMs":  8784824,
+                       "lastSeen":  1795569051923,
+                       "flights":  22
                    },
                    {
                        "name":  "Andrew T",
@@ -187,6 +187,11 @@
     "recent":  [
                    {
                        "name":  "Hudson B",
+                       "start":  1795564315146,
+                       "flownMs":  4718868
+                   },
+                   {
+                       "name":  "Hudson B",
                        "start":  1795563428794,
                        "flownMs":  683476
                    },
@@ -254,11 +259,6 @@
                        "name":  "AA",
                        "start":  1795202546082,
                        "flownMs":  1661473
-                   },
-                   {
-                       "name":  "Jacob S.",
-                       "start":  1795196753583,
-                       "flownMs":  1310299
                    }
                ],
     "schedule":  {
