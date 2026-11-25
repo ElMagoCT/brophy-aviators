@@ -1,15 +1,15 @@
 {
     "schemaVersion":  1,
-    "generated":  1795574425053,
-    "generatedIso":  "2026-11-24T18:40:25-08:00",
+    "generated":  1795575325031,
+    "generatedIso":  "2026-11-24T18:55:25-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
              },
     "weekStart":  1795330800000,
     "totals":  {
-                   "clubMs":  278905120,
-                   "weekMs":  18659368,
+                   "clubMs":  279805962,
+                   "weekMs":  19560210,
                    "pilots":  24,
                    "activePilots7":  8,
                    "flights":  169
@@ -17,9 +17,9 @@
     "pilots":  [
                    {
                        "name":  "Hudson B",
-                       "totalMs":  24914921,
-                       "weekMs":  11881002,
-                       "lastSeen":  1795574417807,
+                       "totalMs":  25815763,
+                       "weekMs":  12781844,
+                       "lastSeen":  1795575318672,
                        "flights":  22
                    },
                    {
