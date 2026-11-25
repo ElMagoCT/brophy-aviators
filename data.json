@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
-    "generated":  1795579825072,
-    "generatedIso":  "2026-11-24T20:10:25-08:00",
+    "generated":  1795590625060,
+    "generatedIso":  "2026-11-24T23:10:25-08:00",
     "club":  {
                  "name":  "Brophy Aviators Club",
                  "sim":  "Microsoft Flight Simulator 2024"
@@ -272,40 +272,6 @@
                      "closedLabel":  "Class in session",
                      "source":  "imported 2026-10-07 08:47",
                      "days":  [
-                                  {
-                                      "date":  "2026-11-24",
-                                      "dow":  "Tue",
-                                      "dowFull":  "Tuesday",
-                                      "label":  "Nov 24",
-                                      "open":  true,
-                                      "note":  "",
-                                      "windows":  [
-                                                      {
-                                                          "from":  "07:00",
-                                                          "to":  "08:00",
-                                                          "startIso":  "2026-11-24T07:00:00-07:00",
-                                                          "endIso":  "2026-11-24T08:00:00-07:00"
-                                                      },
-                                                      {
-                                                          "from":  "09:20",
-                                                          "to":  "11:40",
-                                                          "startIso":  "2026-11-24T09:20:00-07:00",
-                                                          "endIso":  "2026-11-24T11:40:00-07:00"
-                                                      },
-                                                      {
-                                                          "from":  "13:00",
-                                                          "to":  "13:10",
-                                                          "startIso":  "2026-11-24T13:00:00-07:00",
-                                                          "endIso":  "2026-11-24T13:10:00-07:00"
-                                                      },
-                                                      {
-                                                          "from":  "14:30",
-                                                          "to":  "16:00",
-                                                          "startIso":  "2026-11-24T14:30:00-07:00",
-                                                          "endIso":  "2026-11-24T16:00:00-07:00"
-                                                      }
-                                                  ]
-                                  },
                                   {
                                       "date":  "2026-11-25",
                                       "dow":  "Wed",
@@ -830,6 +796,22 @@
                                                           "to":  "16:00",
                                                           "startIso":  "2026-12-14T14:30:00-07:00",
                                                           "endIso":  "2026-12-14T16:00:00-07:00"
+                                                      }
+                                                  ]
+                                  },
+                                  {
+                                      "date":  "2026-12-15",
+                                      "dow":  "Tue",
+                                      "dowFull":  "Tuesday",
+                                      "label":  "Dec 15",
+                                      "open":  true,
+                                      "note":  "",
+                                      "windows":  [
+                                                      {
+                                                          "from":  "07:00",
+                                                          "to":  "16:00",
+                                                          "startIso":  "2026-12-15T07:00:00-07:00",
+                                                          "endIso":  "2026-12-15T16:00:00-07:00"
                                                       }
                                                   ]
                                   }
